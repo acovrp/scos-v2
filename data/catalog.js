@@ -776,7 +776,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 5499.0,
     "flex_status": "active"
   },
@@ -897,7 +897,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 4499.0,
     "flex_status": "active"
   },
@@ -1073,7 +1073,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 4999.0,
     "flex_status": "relist"
   },
@@ -1084,7 +1084,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBFGYHKZAYWX",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 22999.0,
     "flex_status": "active"
   },
@@ -1392,7 +1392,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6499.0,
     "flex_status": "active"
   },
@@ -1480,7 +1480,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBF9HKBJET2B",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 22999.0,
     "flex_status": "active"
   },
@@ -1601,7 +1601,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBFF6A9EFURA",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "active"
   },
@@ -1645,7 +1645,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "active"
   },
@@ -1700,7 +1700,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFB2HFJS6GAWS",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "active"
   },
@@ -1788,7 +1788,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6499.0,
     "flex_status": "active"
   },
@@ -2294,7 +2294,7 @@ const CATALOG_DATA = {
     "fsn": "DCVHMGHPVYCWH9JF",
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "active"
   },
@@ -3185,7 +3185,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 7499.0,
     "flex_status": "active"
   },
@@ -3218,7 +3218,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFB2MU43QQGXY",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 18999.0,
     "flex_status": "active"
   },
@@ -3284,7 +3284,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBF9YZRPDJDS",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 14999.0,
     "flex_status": "active"
   },
@@ -3702,7 +3702,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBF9THUKRKEB",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 13999.0,
     "flex_status": "active"
   },
@@ -3790,7 +3790,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 7499.0,
     "flex_status": "active"
   },
@@ -3801,7 +3801,7 @@ const CATALOG_DATA = {
     "fsn": "MTPGWZZBQ8HH7GFY",
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6999.0,
     "flex_status": "active"
   },
@@ -3867,7 +3867,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6499.0,
     "flex_status": "active"
   },
@@ -3889,7 +3889,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 9099.0,
     "flex_status": "OOS"
   },
@@ -4010,7 +4010,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 5499.0,
     "flex_status": "active"
   },
@@ -4219,7 +4219,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBFFDDMJWYX5",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 14999.0,
     "flex_status": "active"
   },
@@ -4252,7 +4252,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 7499.0,
     "flex_status": "active"
   },
@@ -4279,6 +4279,17 @@ const CATALOG_DATA = {
     "flex_status": "active"
   },
   "SC-PETBEDORTHO-M.Red-M-28X26": {
+    "sku": "SC-PETBEDORTHO-M.Red-M-28X26",
+    "asin": "B09XXXNNJP",
+    "fk_sku": "SC-PETBEDORTHO-M.Red-M-28X26",
+    "fsn": null,
+    "name": "Pet Bed",
+    "category": "Furniture",
+    "line": "dogbed",
+    "mrp": 2989.0,
+    "flex_status": "deleted"
+  },
+  "SC-PETBEDORTHO-M.Red-M-28X26_390": {
     "sku": "SC-PETBEDORTHO-M.Red-M-28X26",
     "asin": "B0FST5V996",
     "fk_sku": "SC-F-PETBEDORTHO-M.Red-M-28X26",
@@ -4340,7 +4351,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBF9K9YMSMXG",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 14999.0,
     "flex_status": "active"
   },
@@ -4516,7 +4527,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBF9TTZUZGWG",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "active"
   },
@@ -4560,7 +4571,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 8999.0,
     "flex_status": "closed"
   },
@@ -4802,7 +4813,7 @@ const CATALOG_DATA = {
     "fsn": "MTPGXN4SPPX5VVFN",
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6499.0,
     "flex_status": "active"
   },
@@ -4890,7 +4901,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBFFADKXYA7Z",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 18999.0,
     "flex_status": "active"
   },
@@ -5022,7 +5033,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFB2GMYYMZCAA",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": "active"
   },
@@ -5033,7 +5044,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFB2FUGVUTH9V",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "active"
   },
@@ -5182,6 +5193,17 @@ const CATALOG_DATA = {
   },
   "SC-PETBEDORTHO-M.Red-XL-52X28": {
     "sku": "SC-PETBEDORTHO-M.Red-XL-52X28",
+    "asin": "B09XXW2K8T",
+    "fk_sku": "SC-PETBEDORTHO-M.Red-XL-52X28",
+    "fsn": "PEBGF39RXZFGZKEK",
+    "name": "Pet Bed",
+    "category": "Furniture",
+    "line": "dogbed",
+    "mrp": 4489.0,
+    "flex_status": "deleted"
+  },
+  "SC-PETBEDORTHO-M.Red-XL-52X28_473": {
+    "sku": "SC-PETBEDORTHO-M.Red-XL-52X28",
     "asin": "B0FSTD5RCR",
     "fk_sku": "SC-F-PETBEDORTHO-M.Red-XL-52X28",
     "fsn": null,
@@ -5286,7 +5308,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBF9CYPDEPDK",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": "active"
   },
@@ -5616,7 +5638,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6499.0,
     "flex_status": "OOS"
   },
@@ -5627,7 +5649,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 4499.0,
     "flex_status": "active"
   },
@@ -5730,6 +5752,17 @@ const CATALOG_DATA = {
     "mrp": 2989.0,
     "flex_status": "deleted"
   },
+  "SC-PETBEDORIG-N.Blue-XL-54x36_523": {
+    "sku": "SC-PETBEDORIG-N.Blue-XL-54x36",
+    "asin": "B0FSTJ7FFJ",
+    "fk_sku": "SC-F-PETBEDORIG-N.Blue-XL-54x36",
+    "fsn": null,
+    "name": "Pet Bed",
+    "category": "Furniture",
+    "line": "dogbed",
+    "mrp": 2989.0,
+    "flex_status": "OOS"
+  },
   "SC-QRMTTOPPER-S-72x36x2": {
     "sku": "SC-QRMTTOPPER-S-72x36x2",
     "asin": "B0GH12BR7D",
@@ -5737,7 +5770,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 3959.0,
     "flex_status": "OOS"
   },
@@ -5748,7 +5781,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 18999.0,
     "flex_status": "active"
   },
@@ -5814,7 +5847,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFBFASXBWMHNX",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 22999.0,
     "flex_status": "OOS"
   },
@@ -5825,7 +5858,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "OOS"
   },
@@ -5836,7 +5869,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 16999.0,
     "flex_status": "active"
   },
@@ -5847,7 +5880,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 13999.0,
     "flex_status": "active"
   },
@@ -5924,7 +5957,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": null
   },
@@ -8421,7 +8454,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 32999.0,
     "flex_status": "OOS"
   },
@@ -8465,7 +8498,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "active"
   },
@@ -9092,7 +9125,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 7499.0,
     "flex_status": "OOS"
   },
@@ -9103,7 +9136,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Microfiber topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 7499.0,
     "flex_status": "active"
   },
@@ -9433,7 +9466,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9444,7 +9477,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9455,7 +9488,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9466,7 +9499,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9477,7 +9510,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9488,7 +9521,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9499,7 +9532,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9510,7 +9543,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -9521,7 +9554,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Latex Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": null,
     "flex_status": "OOS"
   },
@@ -10291,7 +10324,7 @@ const CATALOG_DATA = {
     "fsn": "MTPHM8TQSE45FT49",
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6999.0,
     "flex_status": "active"
   },
@@ -10302,7 +10335,7 @@ const CATALOG_DATA = {
     "fsn": "MTPHM8TPM5ZAXWZT",
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 10499.0,
     "flex_status": "OOS"
   },
@@ -10313,7 +10346,7 @@ const CATALOG_DATA = {
     "fsn": "MTPHM8TPTXFMHGZB",
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 9499.0,
     "flex_status": "OOS"
   },
@@ -10324,7 +10357,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 7999.0,
     "flex_status": "OOS"
   },
@@ -10335,7 +10368,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 10999.0,
     "flex_status": "OOS"
   },
@@ -10346,7 +10379,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 8499.0,
     "flex_status": "OOS"
   },
@@ -10357,7 +10390,7 @@ const CATALOG_DATA = {
     "fsn": "MTPHM8TRSUPGFYEK",
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 5299.0,
     "flex_status": "OOS"
   },
@@ -10368,7 +10401,7 @@ const CATALOG_DATA = {
     "fsn": "MTPHM8TQMTTDFNYU",
     "name": "Memory Foam Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 5999.0,
     "flex_status": "OOS"
   },
@@ -11747,6 +11780,17 @@ const CATALOG_DATA = {
     "mrp": 2989.0,
     "flex_status": "deleted"
   },
+  "SC-PETBEDORTHO-N.Blue-M-28X26_1071": {
+    "sku": "SC-PETBEDORTHO-N.Blue-M-28X26",
+    "asin": "B0FSTD9JDC",
+    "fk_sku": "SC-F-PETBEDORTHO-N.Blue-M-28X26",
+    "fsn": null,
+    "name": "Pet Bed",
+    "category": "Furniture",
+    "line": "dogbed",
+    "mrp": 2989.0,
+    "flex_status": "OOS"
+  },
   "SC-ULTM-LATEX-Q-78x66x10": {
     "sku": "SC-ULTM-LATEX-Q-78x66x10",
     "asin": "0.0",
@@ -11787,7 +11831,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 4799.0,
     "flex_status": "OOS"
   },
@@ -11820,7 +11864,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6599.0,
     "flex_status": "OOS"
   },
@@ -11831,7 +11875,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 5759.0,
     "flex_status": "OOS"
   },
@@ -11842,7 +11886,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6599.0,
     "flex_status": "OOS"
   },
@@ -11853,7 +11897,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 6599.0,
     "flex_status": "OOS"
   },
@@ -11864,7 +11908,7 @@ const CATALOG_DATA = {
     "fsn": "MTPHJUXSXYX3G3WV",
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 5639.0,
     "flex_status": "OOS"
   },
@@ -11875,7 +11919,7 @@ const CATALOG_DATA = {
     "fsn": "MTPHJUXSED3ZVHUZ",
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 5879.0,
     "flex_status": "OOS"
   },
@@ -11886,7 +11930,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Aeroflow Topper",
     "category": "Bedding",
-    "line": "other",
+    "line": "memoryfo",
     "mrp": 4199.0,
     "flex_status": "OOS"
   },
@@ -11985,7 +12029,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": null
   },
@@ -11996,7 +12040,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": null
   },
@@ -12084,7 +12128,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFB2HGECFDCXG",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 18999.0,
     "flex_status": "OOS"
   },
@@ -12095,7 +12139,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "OOS"
   },
@@ -12106,7 +12150,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 21999.0,
     "flex_status": "OOS"
   },
@@ -12117,7 +12161,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 24299.0,
     "flex_status": "OOS"
   },
@@ -12128,7 +12172,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 21699.0,
     "flex_status": "OOS"
   },
@@ -12139,7 +12183,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": "OOS"
   },
@@ -12150,7 +12194,7 @@ const CATALOG_DATA = {
     "fsn": "BEMGFB2GKQGCCZZA",
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "OOS"
   },
@@ -12161,7 +12205,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 32999.0,
     "flex_status": "OOS"
   },
@@ -12172,7 +12216,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": "OOS"
   },
@@ -12183,7 +12227,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 35999.0,
     "flex_status": "OOS"
   },
@@ -12194,7 +12238,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 31999.0,
     "flex_status": "OOS"
   },
@@ -12403,7 +12447,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": "OOS"
   },
@@ -12414,7 +12458,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 25999.0,
     "flex_status": "OOS"
   },
@@ -12425,7 +12469,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": "OOS"
   },
@@ -12436,7 +12480,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 26899.0,
     "flex_status": "OOS"
   },
@@ -12447,7 +12491,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 26899.0,
     "flex_status": "OOS"
   },
@@ -12458,7 +12502,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 29999.0,
     "flex_status": "OOS"
   },
@@ -12469,7 +12513,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 16999.0,
     "flex_status": "OOS"
   },
@@ -12480,7 +12524,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 16999.0,
     "flex_status": "OOS"
   },
@@ -12491,7 +12535,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 20499.0,
     "flex_status": "OOS"
   },
@@ -12502,7 +12546,7 @@ const CATALOG_DATA = {
     "fsn": null,
     "name": "Ultima Mattress",
     "category": "Mattress",
-    "line": "ultimam",
+    "line": "ultimama",
     "mrp": 17899.0,
     "flex_status": "active"
   },
@@ -12681,5 +12725,236 @@ const CATALOG_DATA = {
     "line": "pillowcase",
     "mrp": 549.0,
     "flex_status": "OOS"
+  },
+  "SC-A-SLMMFPILWSET1-BAM-S-25x15": {
+    "sku": "SC-A-SLMMFPILWSET1-BAM-S-25x15",
+    "asin": "B0DZP8GXDV",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Slim Memory Foam Pillow",
+    "category": "Pillow",
+    "line": "cloudpil",
+    "mrp": 1999.0,
+    "flex_status": "active"
+  },
+  "SC-ASF-LITEPILWPSET4-S-27X17": {
+    "sku": "SC-ASF-LITEPILWPSET4-S-27X17",
+    "asin": "B0GLNNJ51N",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Fiber Lite Pillow",
+    "category": "Pillow",
+    "line": "cloudpil",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-SLMMFPILWSET2-BAM-S-25x15": {
+    "sku": "SC-ASF-SLMMFPILWSET2-BAM-S-25x15",
+    "asin": "B0GQ9TRGRT",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Slim Memory Foam Pillow",
+    "category": "Pillow",
+    "line": "cloudpil",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-CON-MFPILWS2-CLT-25x16": {
+    "sku": "SC-ASF-CON-MFPILWS2-CLT-25x16",
+    "asin": "B0GYF7QZ8Q",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat CoolTEC Cervical Memory Foam Pillow",
+    "category": "Pillow",
+    "line": "cervical",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-AF-PETBEDORIG-N.Blue-XL-54x36": {
+    "sku": "SC-AF-PETBEDORIG-N.Blue-XL-54x36",
+    "asin": "B0FSTJ7FFJ",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Original Dog Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-AF-PETBEDORIG-M.Red-L-46x32": {
+    "sku": "SC-AF-PETBEDORIG-M.Red-L-46x32",
+    "asin": "B0FSTCNH49",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Original Dog Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-NLX-BABY-L-48x24x4": {
+    "sku": "SC-ASF-NLX-BABY-L-48x24x4",
+    "asin": "B0GVG2KQDX",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Natural Latex Baby Mattress",
+    "category": "Mattress",
+    "line": "original",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-SLMPILWSET4-S-26x16": {
+    "sku": "SC-ASF-SLMPILWSET4-S-26x16",
+    "asin": "B0GLNFQTY9",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Slim Pillow with Microfiber",
+    "category": "Pillow",
+    "line": "cloudpil",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-Ohayo-Double-Bed-78x48": {
+    "sku": "SC-ASF-Ohayo-Double-Bed-78x48",
+    "asin": "B0FR9CYKW6",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Ohayo Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-AF-PETBEDORTHO-N.Blue-M-28x26": {
+    "sku": "SC-AF-PETBEDORTHO-N.Blue-M-28x26",
+    "asin": "B0FSTD9JDC",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Orthopedic Dog Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-Ohayo-King-Bed-72x72": {
+    "sku": "SC-ASF-Ohayo-King-Bed-72x72",
+    "asin": "B0FR98QN94",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Ohayo Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-Ohayo-King-Bed-75x72": {
+    "sku": "SC-ASF-Ohayo-King-Bed-75x72",
+    "asin": "B0FR98NSZ9",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Ohayo Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-NLX-BABY-XL-52x28x4": {
+    "sku": "SC-ASF-NLX-BABY-XL-52x28x4",
+    "asin": "B0GVFH6X8X",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Natural Latex Baby Mattress",
+    "category": "Mattress",
+    "line": "original",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-Ohayo-Queen-Bed-75x60": {
+    "sku": "SC-ASF-Ohayo-Queen-Bed-75x60",
+    "asin": "B0FR97MMHL",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Ohayo Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-ASF-Ohayo-Queen-Bed-72x60": {
+    "sku": "SC-ASF-Ohayo-Queen-Bed-72x60",
+    "asin": "B0FR96YX38",
+    "fk_sku": null,
+    "fsn": null,
+    "name": "SleepyCat Ohayo Bed",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SCORIG-78x72x6": {
+    "sku": "SCORIG-78x72x6",
+    "asin": null,
+    "fk_sku": "SCORIG-78x72x6",
+    "fsn": "BEMHER3NY9ENMDVZ",
+    "name": "Original Mattress 78x72x6",
+    "category": "Mattress",
+    "line": "original",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-Fk-ORIG-D-72x48x5": {
+    "sku": "SC-Fk-ORIG-D-72x48x5",
+    "asin": null,
+    "fk_sku": "SC-Fk-ORIG-D-72x48x5",
+    "fsn": "BEMHHU8GHVCABY9M",
+    "name": "Original Mattress Double 72x48x5",
+    "category": "Mattress",
+    "line": "original",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-F-MFPILW-P-28x18": {
+    "sku": "SC-F-MFPILW-P-28x18",
+    "asin": null,
+    "fk_sku": "SC-F-MFPILW-P-28x18",
+    "fsn": "PLWG3UXUY6ZDARH7",
+    "name": "Memory Foam Pillow 28x18",
+    "category": "Pillow",
+    "line": "mfpillow",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-PETBEDORTHO-M.Red-XL-52X28_1175": {
+    "sku": "SC-PETBEDORTHO-M.Red-XL-52X28",
+    "asin": null,
+    "fk_sku": "SC-PETBEDORTHO-M.Red-XL-52X28",
+    "fsn": "PEBGF39RXZFGZKEK",
+    "name": "Orthopedic Dog Bed Red XL",
+    "category": "Other",
+    "line": "protector",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-FK-CNC-BLK-SMALL": {
+    "sku": "SC-FK-CNC-BLK-SMALL",
+    "asin": null,
+    "fk_sku": "SC-FK-CNC-BLK-SMALL",
+    "fsn": null,
+    "name": "Cuddle Pillow Small Black",
+    "category": "Pillow",
+    "line": "cuddlepi",
+    "mrp": null,
+    "flex_status": "active"
+  },
+  "SC-F-SLSTPILWCS-C-52x20": {
+    "sku": "SC-F-SLSTPILWCS-C-52x20",
+    "asin": null,
+    "fk_sku": "SC-F-SLSTPILWCS-C-52x20",
+    "fsn": null,
+    "name": "SoftTouch Sleep Pillow Case 52x20",
+    "category": "Bedding",
+    "line": "bedshee",
+    "mrp": null,
+    "flex_status": "active"
   }
 };

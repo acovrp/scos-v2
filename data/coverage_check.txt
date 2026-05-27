@@ -1,35 +1,26 @@
 =========================================
 SCOS 2.0 REVENUE COVERAGE AUDIT
 =========================================
-Amazon Revenue Coverage:   99.65% (Mapped: Rs 303,720,561.40 / Total: Rs 304,799,176.40)
-Flipkart Revenue Coverage: 99.85% (Mapped: Rs 74,738,588.00 / Total: Rs 74,849,744.00)
-Combined Revenue Coverage: 99.69% (Mapped: Rs 378,459,149.40 / Total: Rs 379,648,920.40)
+Amazon Revenue Coverage:   99.99% (Mapped: Rs 304,765,501.40 / Total: Rs 304,799,176.40)
+Flipkart Revenue Coverage: 100.00% (Mapped: Rs 74,849,744.00 / Total: Rs 74,849,744.00)
+Combined Revenue Coverage: 99.99% (Mapped: Rs 379,615,245.40 / Total: Rs 379,648,920.40)
 Audit Status:              PASS
 =========================================
 
 Top Unmapped Amazon ASINs by Revenue:
 ---------------------------------------------
-  ASIN: B0DZP8GXDV   | Unmapped Sales: Rs 212,516.00
-  ASIN: B0GLNNJ51N   | Unmapped Sales: Rs 169,802.00
-  ASIN: B0GQ9TRGRT   | Unmapped Sales: Rs 152,760.00
-  ASIN: B0GYF7QZ8Q   | Unmapped Sales: Rs 121,845.00
-  ASIN: B0FSTJ7FFJ   | Unmapped Sales: Rs 55,902.00
-  ASIN: B0FSTCNH49   | Unmapped Sales: Rs 52,944.00
-  ASIN: B0GVG2KQDX   | Unmapped Sales: Rs 50,392.00
-  ASIN: B0GLNFQTY9   | Unmapped Sales: Rs 49,860.00
-  ASIN: B0FR9CYKW6   | Unmapped Sales: Rs 38,398.00
-  ASIN: B0FSTD9JDC   | Unmapped Sales: Rs 29,728.00
-  ASIN: B0FR98QN94   | Unmapped Sales: Rs 25,199.00
-  ASIN: B0FR98NSZ9   | Unmapped Sales: Rs 22,399.00
-  ASIN: B0GVFH6X8X   | Unmapped Sales: Rs 21,597.00
-  ASIN: B0FR97MMHL   | Unmapped Sales: Rs 20,799.00
-  ASIN: B0FR96YX38   | Unmapped Sales: Rs 20,799.00
-
-Top Unmapped Flipkart SKUs by Revenue:
----------------------------------------------
-  SKU: SCORIG-78x72x6           | Unmapped Sales: Rs 44,716.00
-  SKU: SC-Fk-ORIG-D-72x48x5     | Unmapped Sales: Rs 43,421.00
-  SKU: SC-F-MFPILW-P-28x18      | Unmapped Sales: Rs 12,136.00
-  SKU: SC-PETBEDORTHO-M.Red-XL-52X28 | Unmapped Sales: Rs 9,657.00
-  SKU: SC-FK-CNC-BLK-SMALL      | Unmapped Sales: Rs 835.00
-  SKU: SC-F-SLSTPILWCS-C-52x20  | Unmapped Sales: Rs 391.00
+  ASIN: B0GGSBS19G   | Unmapped Sales: Rs 6,670.00
+  ASIN: B0GGSTFZQQ   | Unmapped Sales: Rs 6,520.00
+  ASIN: B0GGSH56CR   | Unmapped Sales: Rs 5,396.00
+  ASIN: B0GGSCPNTG   | Unmapped Sales: Rs 2,878.00
+  ASIN: B0GGSW282W   | Unmapped Sales: Rs 2,798.00
+  ASIN: B0GGSJJPW5   | Unmapped Sales: Rs 2,718.00
+  ASIN: B0GGSMLL9C   | Unmapped Sales: Rs 1,439.00
+  ASIN: B0GGSP6V8D   | Unmapped Sales: Rs 1,359.00
+  ASIN: B0GGSJG6VY   | Unmapped Sales: Rs 1,349.00
+  ASIN: B0GGSSX5X9   | Unmapped Sales: Rs 1,274.00
+  ASIN: B0GGSFVPB5   | Unmapped Sales: Rs 1,274.00
+  ASIN: B0DGPYTH8T   | Unmapped Sales: Rs 0.00
+  ASIN: B098MR9N99   | Unmapped Sales: Rs 0.00
+  ASIN: B0F2TG5F2B   | Unmapped Sales: Rs 0.00
+  ASIN: B0DGPZND5Q   | Unmapped Sales: Rs 0.00
