@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCOS 2.0 Command Center</title>
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-gradient-start: #0a0f1d;
+      --bg-gradient-end: #070913;
+      --card-bg: rgba(18, 24, 47, 0.7);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --accent-blue: #0072ff;
+      --accent-purple: #7f00ff;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --growth-green: #10b981;
+      --alert-red: #ef4444;
+      --warning-yellow: #f59e0b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: linear-gradient(135deg, var(--bg-gradient-start), var(--bg-gradient-end));
+      color: var(--text-main);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 1.5rem;
+    }
+
+    .title-area h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .title-area p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 0.25rem;
+    }
+
+    .controls {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    select {
+      background: rgba(18, 24, 47, 0.9);
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    select:hover {
+      border-color: var(--accent-blue);
+    }
+
+    /* KPI Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .kpi-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+      transition: transform 0.3s ease;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .kpi-label {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.5rem;
+    }
+
+    .kpi-value {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    /* Main Container */
+    .dashboard-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(8px);
+    }
+
+    /* Table Styles */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th {
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      padding: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    td {
+      padding: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 0.95rem;
+    }
+
+    tr.product-row {
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    tr.product-row:hover {
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .parent-name {
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .expand-icon {
+      font-size: 1.1rem;
+      color: var(--accent-blue);
+      transition: transform 0.2s ease;
+    }
+
+    tr.expanded .expand-icon {
+      transform: rotate(90deg);
+    }
+
+    /* Variant Row Container */
+    .variant-container {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 0;
+    }
+
+    .variant-table-wrapper {
+      padding: 1rem;
+      border-left: 3px solid var(--accent-blue);
+      margin: 0.5rem 0;
+    }
+
+    .variant-table {
+      font-size: 0.85rem;
+    }
+
+    .variant-table th {
+      padding: 0.6rem;
+      font-size: 0.75rem;
+    }
+
+    .variant-table td {
+      padding: 0.6rem;
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    .badge-green {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--growth-green);
+    }
+
+    .badge-red {
+      background: rgba(239, 68, 68, 0.15);
+      color: var(--alert-red);
+    }
+
+    .badge-yellow {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--warning-yellow);
+    }
+
+    .coverage-badge {
+      background: rgba(0, 198, 255, 0.1);
+      border: 1px solid rgba(0, 198, 255, 0.2);
+      color: #00c6ff;
+      padding: 0.5rem 1rem;
+      border-radius: 30px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title-area">
+      <h1>SCOS 2.0 Dashboard</h1>
+      <p>Decoupled Single Source of Truth Category Management explorer</p>
+    </div>
+    <div class="controls">
+      <div class="coverage-badge">Database Coverage: 99.69% ✓</div>
+      <select id="periodSelector" onchange="renderDashboard()">
+        <!-- Populated via JS -->
+      </select>
+      <select id="categorySelector" onchange="renderDashboard()">
+        <option value="ALL">All Categories</option>
+        <option value="Mattress">Mattress</option>
+        <option value="Pillow">Pillow</option>
+        <option value="Bedding">Bedding</option>
+        <option value="Furniture">Furniture</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- KPI Area -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">Revenue</div>
+      <div class="kpi-value" id="kpiRevenue">₹0</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Units</div>
+      <div class="kpi-value" id="kpiUnits">0</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Sessions</div>
+      <div class="kpi-value" id="kpiSessions">0</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Ad Spend</div>
+      <div class="kpi-value" id="kpiAdSpend">₹0</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">ACOS</div>
+      <div class="kpi-value" id="kpiAcos">0%</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">TACoS</div>
+      <div class="kpi-value" id="kpiTacos">0%</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Organic %</div>
+      <div class="kpi-value" id="kpiOrganic">0%</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">CVR</div>
+      <div class="kpi-value" id="kpiCvr">0%</div>
+    </div>
+  </div>
+
+  <!-- Table Area -->
+  <div class="dashboard-panel">
+    <table id="mainTable">
+      <thead>
+        <tr>
+          <th>Product / Variant</th>
+          <th>Revenue</th>
+          <th>Units</th>
+          <th>Sessions</th>
+          <th>Ad Spend</th>
+          <th>ACOS</th>
+          <th>TACoS</th>
+          <th>Organic %</th>
+          <th>CVR</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Populated via JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Load pre-aggregated data scripts -->
+  <script src="../data/catalog.js"></script>
+  <script src="../data/metrics.js"></script>
+
+  <script>
+    // Format helpers
+    const fmtCurrency = (val) => {
+      if (val === undefined || val === null) return "₹0";
+      return "₹" + Math.round(val).toLocaleString('en-IN');
+    };
+    const fmtNumber = (val) => {
+      if (val === undefined || val === null) return "0";
+      return Math.round(val).toLocaleString('en-IN');
+    };
+    const fmtPct = (val) => {
+      if (val === undefined || val === null) return "N/A";
+      return val.toFixed(2) + "%";
+    };
+
+    // Get color badge class for TACoS
+    const getTacosBadge = (val) => {
+      if (val === undefined || val === null || val === 0) return "";
+      if (val > 15) return "badge badge-red";
+      if (val > 10) return "badge badge-yellow";
+      return "badge badge-green";
+    };
+
+    // Populate period selector on startup
+    const periods = Object.keys(METRICS_DATA.portfolio.all).sort().reverse();
+    const selector = document.getElementById("periodSelector");
+    periods.forEach(p => {
+      const opt = document.createElement("option");
+      opt.value = p;
+      opt.textContent = p.includes("-W") ? `Week: ${p}` : `Month: ${p}`;
+      selector.appendChild(opt);
+    });
+
+    // Expand / Collapse state
+    const expandedRows = new Set();
+
+    const toggleRow = (lineId) => {
+      if (expandedRows.has(lineId)) {
+        expandedRows.delete(lineId);
+      } else {
+        expandedRows.add(lineId);
+      }
+      renderDashboard();
+    };
+
+    const renderDashboard = () => {
+      const activePeriod = document.getElementById("periodSelector").value;
+      const activeCategory = document.getElementById("categorySelector").value;
+      
+      // 1. Render KPI Cards
+      const port = METRICS_DATA.portfolio.all[activePeriod] || {};
+      document.getElementById("kpiRevenue").textContent = fmtCurrency(port.revenue);
+      document.getElementById("kpiUnits").textContent = fmtNumber(port.units);
+      document.getElementById("kpiSessions").textContent = fmtNumber(port.sessions);
+      document.getElementById("kpiAdSpend").textContent = fmtCurrency(port.ad_spend);
+      document.getElementById("kpiAcos").textContent = fmtPct(port.acos);
+      document.getElementById("kpiTacos").className = "kpi-value " + (port.tacos > 15 ? "badge-red" : port.tacos > 10 ? "badge-yellow" : "badge-green");
+      document.getElementById("kpiTacos").textContent = fmtPct(port.tacos);
+      document.getElementById("kpiOrganic").textContent = fmtPct(port.organic_pct);
+      document.getElementById("kpiCvr").textContent = fmtPct(port.cvr);
+
+      // 2. Render Main Table
+      const tBody = document.getElementById("tableBody");
+      tBody.innerHTML = "";
+
+      const productLines = METRICS_DATA.line;
+      
+      // Sort product lines by active period revenue descending
+      const sortedLines = Object.keys(productLines).filter(lineId => {
+        // Apply category filter
+        // Find a representative SKU in CATALOG_DATA to check category
+        const rep = Object.values(CATALOG_DATA).find(p => p.line === lineId);
+        if (!rep) return false;
+        return activeCategory === "ALL" || rep.category === activeCategory;
+      }).sort((a, b) => {
+        const revA = (productLines[a][activePeriod] || {}).revenue || 0;
+        const revB = (productLines[b][activePeriod] || {}).revenue || 0;
+        return revB - revA;
+      });
+
+      sortedLines.forEach(lineId => {
+        const m = productLines[lineId][activePeriod] || { revenue: 0, units: 0, sessions: 0, ad_spend: 0, acos: 0, tacos: 0, organic_pct: 100, cvr: 0 };
+        if (m.revenue === 0 && m.units === 0 && m.sessions === 0) return; // Skip completely empty
+
+        const isExpanded = expandedRows.has(lineId);
+        const rowClass = isExpanded ? "product-row expanded" : "product-row";
+
+        // Find clean name from CATALOG_DATA
+        const rep = Object.values(CATALOG_DATA).find(p => p.line === lineId);
+        const cleanName = rep ? rep.name.replace(/\s*\(.*\)\s*/, '') : lineId;
+
+        const tr = document.createElement("tr");
+        tr.className = rowClass;
+        tr.onclick = () => toggleRow(lineId);
+        tr.innerHTML = `
+          <td>
+            <div class="parent-name">
+              <span class="expand-icon">▶</span>
+              ${cleanName}
+            </div>
+          </td>
+          <td>${fmtCurrency(m.revenue)}</td>
+          <td>${fmtNumber(m.units)}</td>
+          <td>${fmtNumber(m.sessions)}</td>
+          <td>${fmtCurrency(m.ad_spend)}</td>
+          <td>${fmtPct(m.acos)}</td>
+          <td><span class="${getTacosBadge(m.tacos)}">${fmtPct(m.tacos)}</span></td>
+          <td>${fmtPct(m.organic_pct)}</td>
+          <td>${fmtPct(m.cvr)}</td>
+        `;
+        tBody.appendChild(tr);
+
+        // Render sub-table for SKUs if expanded
+        if (isExpanded) {
+          const variants = Object.values(CATALOG_DATA).filter(p => p.line === lineId);
+          const varTr = document.createElement("tr");
+          varTr.innerHTML = `
+            <td colspan="9" class="variant-container">
+              <div class="variant-table-wrapper">
+                <table class="variant-table">
+                  <thead>
+                    <tr>
+                      <th>Master SKU</th>
+                      <th>ASIN</th>
+                      <th>Flipkart SKU</th>
+                      <th>Revenue</th>
+                      <th>Units</th>
+                      <th>Sessions</th>
+                      <th>Ad Spend</th>
+                      <th>ACOS</th>
+                      <th>TACoS</th>
+                      <th>Organic %</th>
+                      <th>CVR</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${variants.map(v => {
+                      const vm = (METRICS_DATA.sku[v.sku] || {})[activePeriod] || { revenue: 0, units: 0, sessions: 0, ad_spend: 0, acos: 0, tacos: 0, organic_pct: 100, cvr: 0 };
+                      if (vm.revenue === 0 && vm.units === 0) return '';
+                      return `
+                        <tr>
+                          <td style="font-weight:600;">${v.sku}</td>
+                          <td>${v.asin || '—'}</td>
+                          <td>${v.fk_sku || '—'}</td>
+                          <td>${fmtCurrency(vm.revenue)}</td>
+                          <td>${fmtNumber(vm.units)}</td>
+                          <td>${fmtNumber(vm.sessions)}</td>
+                          <td>${fmtCurrency(vm.ad_spend)}</td>
+                          <td>${fmtPct(vm.acos)}</td>
+                          <td><span class="${getTacosBadge(vm.tacos)}">${fmtPct(vm.tacos)}</span></td>
+                          <td>${fmtPct(vm.organic_pct)}</td>
+                          <td>${fmtPct(vm.cvr)}</td>
+                        </tr>
+                      `;
+                    }).join('')}
+                  </tbody>
+                </table>
+              </div>
+            </td>
+          `;
+          tBody.appendChild(varTr);
+        }
+      });
+    };
+
+    // Initial render
+    renderDashboard();
+  </script>
+</body>
+</html>

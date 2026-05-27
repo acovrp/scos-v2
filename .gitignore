@@ -1,0 +1,12 @@
+# Ignore SQLite Core DB
+data/scos_core.db
+
+# Ignore Python cache and bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
