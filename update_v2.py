@@ -55,6 +55,11 @@ def main():
         print("Fatal error building metrics. Pipeline aborted.")
         sys.exit(1)
 
+    print("\nStep 5.5: Building dashboard snapshot and injecting into pwa-push/index.html...")
+    success, _, _ = run_command(f'"{sys.executable}" pipeline\\build_snapshot.py', V2_REPO_PATH)
+    if not success:
+        print("Warning: Snapshot build failed. Dashboard will retain previous snapshot.")
+
     print("\nStep 6: Running Revenue Coverage Auditor...")
     success, stdout, _ = run_command(f'"{sys.executable}" pipeline\\check_coverage.py', V2_REPO_PATH)
     if not success:
@@ -76,7 +81,9 @@ def main():
         sys.exit(0)
 
     # Stage files
-    run_command("git add data/catalog.json data/catalog.js data/metrics.json data/metrics.js data/coverage_check.txt", V2_REPO_PATH)
+    run_command("git add dashboard/index.html data/catalog.json data/catalog.js data/metrics.json data/metrics.js data/coverage_check.txt data/snapshot.json", V2_REPO_PATH)
+    # Also stage pwa-push/index.html (snapshot injected inline)
+    run_command(f'git -C "{PWA_REPO_PATH}" add index.html data/snapshot.json', V2_REPO_PATH)
     
     # Commit changes
     success, commit_out, _ = run_command('git commit -m "data: daily refresh of SCOS 2.0 metrics"', V2_REPO_PATH)
