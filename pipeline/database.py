@@ -17,7 +17,8 @@ def init_db():
     # 1. Products Master Table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS products (
-        sku TEXT PRIMARY KEY,       -- Master SKU (canonical variant identifier)
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        sku TEXT NOT NULL,          -- Master SKU (canonical variant identifier)
         asin TEXT,                  -- Amazon ASIN
         fk_sku TEXT,                -- Flipkart SKU
         fsn TEXT,                   -- Flipkart FSN
@@ -47,16 +48,18 @@ def init_db():
     """)
     
     # 3. Daily Ads Table
+    cursor.execute("DROP TABLE IF EXISTS daily_ads") # Recreate with new schema
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS daily_ads (
         date TEXT NOT NULL,         -- YYYY-MM-DD
         sku TEXT NOT NULL,          -- Master SKU
         channel TEXT NOT NULL,      -- 'amazon', 'flipkart'
+        ad_type TEXT NOT NULL,      -- 'SP', 'SB', 'SD'
         ad_spend REAL DEFAULT 0.0,
         ad_sales REAL DEFAULT 0.0,
         clicks INTEGER DEFAULT 0,
         impressions INTEGER DEFAULT 0,
-        PRIMARY KEY (date, sku, channel),
+        PRIMARY KEY (date, sku, channel, ad_type),
         FOREIGN KEY (sku) REFERENCES products (sku)
     )
     """)
@@ -79,6 +82,7 @@ def init_db():
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_sales_sku ON daily_sales (sku)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_ads_date ON daily_ads (date)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_ads_sku ON daily_ads (sku)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_products_sku ON products (sku)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_products_asin ON products (asin)")
     cursor.execute("CREATE INDEX IF NOT EXISTS idx_products_fk_sku ON products (fk_sku)")
     

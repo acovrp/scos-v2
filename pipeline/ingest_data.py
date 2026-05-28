@@ -142,8 +142,20 @@ def ingest_ads():
     # Columns: ['date', 'ad_type', 'asin', 'sku', 'impressions', 'clicks', 'spend', 'sales', 'orders', 'units']
     ads_rows = []
     
-    # Group by (date, asin) to aggregate different ad types (SP, SB, SD)
-    grouped = df_ads.groupby(['date', 'asin']).agg({
+    def norm_ad_type(ap):
+        if not ap:
+            return 'SP'
+        s = str(ap).upper().strip()
+        if 'DISPLAY' in s or 'SD' == s:
+            return 'SD'
+        if 'BRANDS' in s or 'SB' == s or 'SBV' == s:
+            return 'SB'
+        return 'SP'
+        
+    df_ads['ad_type'] = df_ads['ad_type'].apply(norm_ad_type)
+    
+    # Group by (date, asin, ad_type) to keep different ad types granular
+    grouped = df_ads.groupby(['date', 'asin', 'ad_type']).agg({
         'impressions': 'sum',
         'clicks': 'sum',
         'spend': 'sum',
@@ -153,6 +165,7 @@ def ingest_ads():
     for _, row in grouped.iterrows():
         asin = clean_str(row.get('asin'))
         date_raw = clean_str(row.get('date'))
+        ad_type = clean_str(row.get('ad_type')) or 'SP'
         if not asin or not date_raw:
             continue
             
@@ -170,12 +183,12 @@ def ingest_ads():
         clicks = int(row.get('clicks') or 0)
         impressions = int(row.get('impressions') or 0)
         
-        ads_rows.append((date, master_sku, 'amazon', spend, sales, clicks, impressions))
+        ads_rows.append((date, master_sku, 'amazon', ad_type, spend, sales, clicks, impressions))
         
     if ads_rows:
         cursor.executemany("""
-            INSERT OR REPLACE INTO daily_ads (date, sku, channel, ad_spend, ad_sales, clicks, impressions)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
+            INSERT OR REPLACE INTO daily_ads (date, sku, channel, ad_type, ad_spend, ad_sales, clicks, impressions)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         """, ads_rows)
         print(f"Successfully ingested {len(ads_rows)} daily ad spend rows.")
         

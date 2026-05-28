@@ -36,7 +36,7 @@ def calculate_rates(m):
     # Calculate derived rate metrics safely
     m["acos"] = (m["ad_spend"] / m["ad_sales"] * 100.0) if m["ad_sales"] > 0 else 0.0
     m["tacos"] = (m["ad_spend"] / m["revenue"] * 100.0) if m["revenue"] > 0 else 0.0
-    m["cvr"] = (m["units"] / m["sessions"] * 100.0) if m["sessions"] > 0 else 0.0
+    m["cvr"] = min(100.0, (m["units"] / m["sessions"] * 100.0)) if m["sessions"] > 0 else 0.0
     m["ctr"] = (m["clicks"] / m["impressions"] * 100.0) if m["impressions"] > 0 else 0.0
     m["buybox_pct"] = (m["buybox_sum"] / m["buybox_count"]) if m["buybox_count"] > 0 else None
     

@@ -2,7 +2,7 @@
 SCOS 2.0 DEDUPLICATED PRODUCT CATALOG PREVIEW
 =========================================
 Source file: C:\Users\User\Downloads\SKU MRPs as of 19th May.xlsx
-Total Unique Product Variants: 1153
+Total Unique Product Variants: 1178
 =========================================
 
 CATEGORY: Bedding
@@ -44,6 +44,7 @@ CATEGORY: Bedding
   SKU: SC-EVGRFTDSHEET-S-75x36          | Line: bedshee      | ASIN: B0GQT8SDG8   | FK SKU: SC-FK-EVGRFTDSHEET-S-75x36 | FSN: None               | MRP: 1589.0   | Name: Cotton Fitted Bedsheet
   SKU: SC-EVGRFTDSHEET-S-78x36          | Line: bedshee      | ASIN: B0GQT1ZXHB   | FK SKU: SC-FK-EVGRFTDSHEET-S-78x36 | FSN: None               | MRP: 1589.0   | Name: Cotton Fitted Bedsheet
   SKU: SC-EVGRTFTDSHEET-K-78x72         | Line: bedshee      | ASIN: B0GQSZNJ69   | FK SKU: SC-FK-EVGRTFTDSHEET-K-78x72 | FSN: None               | MRP: 2489.0   | Name: Cotton Fitted Bedsheet
+  SKU: SC-F-SLSTPILWCS-C-52x20          | Line: bedshee      | ASIN: None         | FK SKU: SC-F-SLSTPILWCS-C-52x20  | FSN: None               | MRP: None     | Name: SoftTouch Sleep Pillow Case 52x20
   SKU: SC-MAZEMUSLN-S-85X59             | Line: bedshee      | ASIN: B09XLS3TTP   | FK SKU: SC-F-MAZEMUSLN-S-59x85   | FSN: BLAGDJ4FQAXDSYDD   | MRP: 2999.0   | Name: Muslin Throws
   SKU: SC-MBJRDVTCVR-D-90x100           | Line: bedshee      | ASIN: B0D1KQMQ3Y   | FK SKU: SC-F-MBJRDVTCVR-D-90x100 | FSN: None               | MRP: 2989.0   | Name: Duvet Cover
   SKU: SC-MBJRDVTCVR-S-90x60            | Line: bedshee      | ASIN: B0D1KR8LBY   | FK SKU: SC-F-MBJRDVTCVR-S-90x60  | FSN: None               | MRP: 2089.0   | Name: Duvet Cover
@@ -193,54 +194,54 @@ CATEGORY: Bedding
   SKU: SC-SUMPKCOMF-D-90x100            | Line: comforte     | ASIN: B0FCMD3F6P   | FK SKU: SC-F-SUMPKCOMF-D-90x100  | FSN: None               | MRP: 2289.0   | Name: Summer AC Comforter
   SKU: SC-SUMPKCOMF-S-90x60             | Line: comforte     | ASIN: B0FCMFCDZ9   | FK SKU: SC-F-SUMPKCOMF-S-90x60   | FSN: None               | MRP: 1689.0   | Name: Summer AC Comforter
   SKU: SC-WNTRCOMF-D-90x100             | Line: comforte     | ASIN: B0BM9RZ1DT   | FK SKU: SC-WNTRCOMF-D-90x100     | FSN: BLAGK3HCBQVWFSNE   | MRP: 3989.0   | Name: Winter Comforter
-  SKU: SC-ADMFPILW-S-25x16              | Line: other        | ASIN: B0B4N843GQ   | FK SKU: SC-ADMFPILW-S-25x16      | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-EVGRDVTCOVER-D-90x100         | Line: other        | ASIN: B0GTV67BK8   | FK SKU: SC-F-EVGRDVTCOVER-D-90x100 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-EVGRDVTCOVER-S-90x60          | Line: other        | ASIN: B0GTV5HPXV   | FK SKU: SC-F-EVGRDVTCOVER-S-90x60 | FSN: DCVHMGHPVYCWH9JF   | MRP: None     | Name: Latex Topper
-  SKU: SC-FIMTTOPPER-D-72x48            | Line: other        | ASIN: B0D2X7G46F   | FK SKU: SC-F-FIMTTOPPER-D-72x48  | FSN: None               | MRP: 5499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-K-72x72            | Line: other        | ASIN: B0CSFQ7QWG   | FK SKU: SC-F-FIMTTOPPER-K-72x72  | FSN: None               | MRP: 7499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-K-75x72            | Line: other        | ASIN: B0D2X535C4   | FK SKU: SC-F-FIMTTOPPER-K-75x72  | FSN: None               | MRP: 7499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-K-78x72            | Line: other        | ASIN: B0CSFQGCVQ   | FK SKU: SC-F-FIMTTOPPER-K-78x72  | FSN: None               | MRP: 7499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-Q-72x60            | Line: other        | ASIN: B0CSFQK17Y   | FK SKU: SC-F-FIMTTOPPER-Q-72x60  | FSN: None               | MRP: 6499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-Q-75x60            | Line: other        | ASIN: B0D2X6W9MT   | FK SKU: SC-F-FIMTTOPPER-Q-75x60  | FSN: None               | MRP: 6499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-Q-78x60            | Line: other        | ASIN: B0CSFR6FGP   | FK SKU: SC-F-FIMTTOPPER-Q-78x60  | FSN: None               | MRP: 6499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-S-72x36            | Line: other        | ASIN: B0D2X51KKW   | FK SKU: SC-F-FIMTTOPPER-S-72x36  | FSN: None               | MRP: 4499.0   | Name: Microfiber topper
-  SKU: SC-FIMTTOPPER-S-78x36            | Line: other        | ASIN: B0DCVGW9CD   | FK SKU: SC-F-FIMTTOPPER-S-78x36  | FSN: None               | MRP: 4999.0   | Name: Microfiber topper
-  SKU: SC-LATEXTOPPER-D-72x48x1.5       | Line: other        | ASIN: B0GSBGYNKG   | FK SKU: SC-FK-LATEXTOPPER-D-72x48x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-K-72x72x1.5       | Line: other        | ASIN: B0GSB5Q5RJ   | FK SKU: SC-FK-LATEXTOPPER-K-72x72x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-K-75x72x1.5       | Line: other        | ASIN: B0GSBDCHXK   | FK SKU: SC-FK-LATEXTOPPER-K-75x72x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-K-78x72x1.5       | Line: other        | ASIN: B0GSB5GCWL   | FK SKU: SC-FK-LATEXTOPPER-K-78x72x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-Q-72x60x1.5       | Line: other        | ASIN: B0GSB1WSSG   | FK SKU: SC-FK-LATEXTOPPER-Q-72x60x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-Q-75x60x1.5       | Line: other        | ASIN: B0GSB584VZ   | FK SKU: SC-FK-LATEXTOPPER-Q-75x60x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-Q-78x60x1.5       | Line: other        | ASIN: B0GSB83NRQ   | FK SKU: SC-FK-LATEXTOPPER-Q-78x60x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-S-72x36x1.5       | Line: other        | ASIN: B0GSBGR1WH   | FK SKU: SC-FK-LATEXTOPPER-S-72x36x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
-  SKU: SC-LATEXTOPPER-S-78x36x1.5       | Line: other        | ASIN: B0GSBCRSN1   | FK SKU: SC-FK-LATEXTOPPER-S-78x36x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-ADMFPILW-S-25x16              | Line: memoryfo     | ASIN: B0B4N843GQ   | FK SKU: SC-ADMFPILW-S-25x16      | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-EVGRDVTCOVER-D-90x100         | Line: memoryfo     | ASIN: B0GTV67BK8   | FK SKU: SC-F-EVGRDVTCOVER-D-90x100 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-EVGRDVTCOVER-S-90x60          | Line: memoryfo     | ASIN: B0GTV5HPXV   | FK SKU: SC-F-EVGRDVTCOVER-S-90x60 | FSN: DCVHMGHPVYCWH9JF   | MRP: None     | Name: Latex Topper
+  SKU: SC-FIMTTOPPER-D-72x48            | Line: memoryfo     | ASIN: B0D2X7G46F   | FK SKU: SC-F-FIMTTOPPER-D-72x48  | FSN: None               | MRP: 5499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-K-72x72            | Line: memoryfo     | ASIN: B0CSFQ7QWG   | FK SKU: SC-F-FIMTTOPPER-K-72x72  | FSN: None               | MRP: 7499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-K-75x72            | Line: memoryfo     | ASIN: B0D2X535C4   | FK SKU: SC-F-FIMTTOPPER-K-75x72  | FSN: None               | MRP: 7499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-K-78x72            | Line: memoryfo     | ASIN: B0CSFQGCVQ   | FK SKU: SC-F-FIMTTOPPER-K-78x72  | FSN: None               | MRP: 7499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-Q-72x60            | Line: memoryfo     | ASIN: B0CSFQK17Y   | FK SKU: SC-F-FIMTTOPPER-Q-72x60  | FSN: None               | MRP: 6499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-Q-75x60            | Line: memoryfo     | ASIN: B0D2X6W9MT   | FK SKU: SC-F-FIMTTOPPER-Q-75x60  | FSN: None               | MRP: 6499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-Q-78x60            | Line: memoryfo     | ASIN: B0CSFR6FGP   | FK SKU: SC-F-FIMTTOPPER-Q-78x60  | FSN: None               | MRP: 6499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-S-72x36            | Line: memoryfo     | ASIN: B0D2X51KKW   | FK SKU: SC-F-FIMTTOPPER-S-72x36  | FSN: None               | MRP: 4499.0   | Name: Microfiber topper
+  SKU: SC-FIMTTOPPER-S-78x36            | Line: memoryfo     | ASIN: B0DCVGW9CD   | FK SKU: SC-F-FIMTTOPPER-S-78x36  | FSN: None               | MRP: 4999.0   | Name: Microfiber topper
+  SKU: SC-LATEXTOPPER-D-72x48x1.5       | Line: memoryfo     | ASIN: B0GSBGYNKG   | FK SKU: SC-FK-LATEXTOPPER-D-72x48x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-K-72x72x1.5       | Line: memoryfo     | ASIN: B0GSB5Q5RJ   | FK SKU: SC-FK-LATEXTOPPER-K-72x72x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-K-75x72x1.5       | Line: memoryfo     | ASIN: B0GSBDCHXK   | FK SKU: SC-FK-LATEXTOPPER-K-75x72x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-K-78x72x1.5       | Line: memoryfo     | ASIN: B0GSB5GCWL   | FK SKU: SC-FK-LATEXTOPPER-K-78x72x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-Q-72x60x1.5       | Line: memoryfo     | ASIN: B0GSB1WSSG   | FK SKU: SC-FK-LATEXTOPPER-Q-72x60x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-Q-75x60x1.5       | Line: memoryfo     | ASIN: B0GSB584VZ   | FK SKU: SC-FK-LATEXTOPPER-Q-75x60x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-Q-78x60x1.5       | Line: memoryfo     | ASIN: B0GSB83NRQ   | FK SKU: SC-FK-LATEXTOPPER-Q-78x60x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-S-72x36x1.5       | Line: memoryfo     | ASIN: B0GSBGR1WH   | FK SKU: SC-FK-LATEXTOPPER-S-72x36x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-LATEXTOPPER-S-78x36x1.5       | Line: memoryfo     | ASIN: B0GSBCRSN1   | FK SKU: SC-FK-LATEXTOPPER-S-78x36x1.5 | FSN: None               | MRP: None     | Name: Latex Topper
+  SKU: SC-MFMTTOPPER-D-72x48            | Line: memoryfo     | ASIN: B0CWS1LB7W   | FK SKU: SC-F-MFMTTOPPER-D-72x48  | FSN: None               | MRP: 5499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-D-72x48x2          | Line: memoryfo     | ASIN: B0FHHZ7NF7   | FK SKU: SC-FK-MFMTTOPPER-D-72x48x2in | FSN: MTPHM8TQSE45FT49   | MRP: 6999.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-K-72x72            | Line: memoryfo     | ASIN: B0CRS2ZQV5   | FK SKU: SC-F-MFMTTOPPER-K-72x72  | FSN: None               | MRP: 7499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-K-72x72x2          | Line: memoryfo     | ASIN: B0FHHTNKY1   | FK SKU: SC-FK-MFMTTOPPER-K-72x72x2 | FSN: MTPHM8TPM5ZAXWZT   | MRP: 10499.0  | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-K-75x60x2          | Line: memoryfo     | ASIN: B0FHHXVVWN   | FK SKU: SC-FK-MFMTTOPPER-K-75x60x2 | FSN: None               | MRP: 8999.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-K-75x72            | Line: memoryfo     | ASIN: B0CWS2SVVL   | FK SKU: SC-F-MFMTTOPPER-K-75x72  | FSN: None               | MRP: 7499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-K-75x72x2          | Line: memoryfo     | ASIN: B0FHHWGGVS   | FK SKU: SC-FK-MFMTTOPPER-K-75x72x2 | FSN: MTPHM8TPTXFMHGZB   | MRP: 9499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-K-78x72            | Line: memoryfo     | ASIN: B0CRS3Z2B7   | FK SKU: SC-F-MFMTTOPPER-K-78x72  | FSN: None               | MRP: 7999.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-K-78x72x2          | Line: memoryfo     | ASIN: B0FHHWW2GZ   | FK SKU: SC-FK-MFMTTOPPER-K-78x72x2 | FSN: None               | MRP: 10999.0  | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-Q-72x60            | Line: memoryfo     | ASIN: B0CRS2R6JM   | FK SKU: SC-F-MFMTTOPPER-Q-72x60  | FSN: MTPGXN4SPPX5VVFN   | MRP: 6499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-Q-72x60x2          | Line: memoryfo     | ASIN: B0FHHXTLHZ   | FK SKU: SC-FK-MFMTTOPPER-Q-72x60x2 | FSN: None               | MRP: 8499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-Q-75x60            | Line: memoryfo     | ASIN: B0CWS1WR2F   | FK SKU: SC-F-MFMTTOPPER-Q-75x60  | FSN: None               | MRP: 6499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-Q-78x60            | Line: memoryfo     | ASIN: B0CRS31GSK   | FK SKU: SC-F-MFMTTOPPER-Q-78x60  | FSN: MTPGWZZBQ8HH7GFY   | MRP: 6999.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-Q-78x60x2          | Line: memoryfo     | ASIN: B0FHHXQX2Q   | FK SKU: SC-F-MFMTTOPPER-Q-78x60x2 | FSN: None               | MRP: 9099.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-S-72x36            | Line: memoryfo     | ASIN: B0CWS28HXY   | FK SKU: SC-F-MFMTTOPPER-S-72x36  | FSN: None               | MRP: 4499.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-S-72x36x2          | Line: memoryfo     | ASIN: B0FHHXS6NJ   | FK SKU: SC-FK-MFMTTOPPER-S-72x36x2 | FSN: MTPHM8TRSUPGFYEK   | MRP: 5299.0   | Name: Memory Foam Topper
+  SKU: SC-MFMTTOPPER-S-78x36x2          | Line: memoryfo     | ASIN: B0FHHX6LBM   | FK SKU: SC-FK-MFMTTOPPER-S-78x36x2 | FSN: MTPHM8TQMTTDFNYU   | MRP: 5999.0   | Name: Memory Foam Topper
+  SKU: SC-QRMTTOPPER-D-72x48x2          | Line: memoryfo     | ASIN: B0GGZVFCQM   | FK SKU: SC-F-QRMTTOPPER-D-72x48x2 | FSN: None               | MRP: 4799.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-K-72x72x2          | Line: memoryfo     | ASIN: B0GH19L9X1   | FK SKU: SC-F-QRMTTOPPER-K-72x72x2 | FSN: None               | MRP: 6599.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-K-75x60x2          | Line: memoryfo     | ASIN: B0GGZW55Q5   | FK SKU: SC-F-QRMTTOPPER-K-75x60x2 | FSN: None               | MRP: 5759.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-K-75x72x2          | Line: memoryfo     | ASIN: B0GH17PTLD   | FK SKU: SC-F-QRMTTOPPER-K-75x72x2 | FSN: None               | MRP: 6599.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-K-78x72x2          | Line: memoryfo     | ASIN: B0GGZTPLCW   | FK SKU: SC-F-QRMTTOPPER-K-78x72x2 | FSN: None               | MRP: 6599.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-Q-72x60x2          | Line: memoryfo     | ASIN: B0GH175SR4   | FK SKU: SC-F-QRMTTOPPER-Q-72x60x2 | FSN: MTPHJUXSXYX3G3WV   | MRP: 5639.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-Q-78x60x2          | Line: memoryfo     | ASIN: B0GGZQMYTQ   | FK SKU: SC-F-QRMTTOPPER-Q-78x60x2 | FSN: MTPHJUXSED3ZVHUZ   | MRP: 5879.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-S-72x36x2          | Line: memoryfo     | ASIN: B0GH12BR7D   | FK SKU: SC-F-QRMTTOPPER-S-72x36x2 | FSN: None               | MRP: 3959.0   | Name: Aeroflow Topper
+  SKU: SC-QRMTTOPPER-S-78x36x2          | Line: memoryfo     | ASIN: B0GGZVVW7D   | FK SKU: SC-F-QRMTTOPPER-S-78x36x2 | FSN: None               | MRP: 4199.0   | Name: Aeroflow Topper
   SKU: SC-MBWTBLANKET-S-75x50           | Line: other        | ASIN: B09SB37CRT   | FK SKU: SC-F-MBWTBLANKET-75x50   | FSN: None               | MRP: 5489.0   | Name: weighted blankets
-  SKU: SC-MFMTTOPPER-D-72x48            | Line: other        | ASIN: B0CWS1LB7W   | FK SKU: SC-F-MFMTTOPPER-D-72x48  | FSN: None               | MRP: 5499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-D-72x48x2          | Line: other        | ASIN: B0FHHZ7NF7   | FK SKU: SC-FK-MFMTTOPPER-D-72x48x2in | FSN: MTPHM8TQSE45FT49   | MRP: 6999.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-K-72x72            | Line: other        | ASIN: B0CRS2ZQV5   | FK SKU: SC-F-MFMTTOPPER-K-72x72  | FSN: None               | MRP: 7499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-K-72x72x2          | Line: other        | ASIN: B0FHHTNKY1   | FK SKU: SC-FK-MFMTTOPPER-K-72x72x2 | FSN: MTPHM8TPM5ZAXWZT   | MRP: 10499.0  | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-K-75x60x2          | Line: other        | ASIN: B0FHHXVVWN   | FK SKU: SC-FK-MFMTTOPPER-K-75x60x2 | FSN: None               | MRP: 8999.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-K-75x72            | Line: other        | ASIN: B0CWS2SVVL   | FK SKU: SC-F-MFMTTOPPER-K-75x72  | FSN: None               | MRP: 7499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-K-75x72x2          | Line: other        | ASIN: B0FHHWGGVS   | FK SKU: SC-FK-MFMTTOPPER-K-75x72x2 | FSN: MTPHM8TPTXFMHGZB   | MRP: 9499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-K-78x72            | Line: other        | ASIN: B0CRS3Z2B7   | FK SKU: SC-F-MFMTTOPPER-K-78x72  | FSN: None               | MRP: 7999.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-K-78x72x2          | Line: other        | ASIN: B0FHHWW2GZ   | FK SKU: SC-FK-MFMTTOPPER-K-78x72x2 | FSN: None               | MRP: 10999.0  | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-Q-72x60            | Line: other        | ASIN: B0CRS2R6JM   | FK SKU: SC-F-MFMTTOPPER-Q-72x60  | FSN: MTPGXN4SPPX5VVFN   | MRP: 6499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-Q-72x60x2          | Line: other        | ASIN: B0FHHXTLHZ   | FK SKU: SC-FK-MFMTTOPPER-Q-72x60x2 | FSN: None               | MRP: 8499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-Q-75x60            | Line: other        | ASIN: B0CWS1WR2F   | FK SKU: SC-F-MFMTTOPPER-Q-75x60  | FSN: None               | MRP: 6499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-Q-78x60            | Line: other        | ASIN: B0CRS31GSK   | FK SKU: SC-F-MFMTTOPPER-Q-78x60  | FSN: MTPGWZZBQ8HH7GFY   | MRP: 6999.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-Q-78x60x2          | Line: other        | ASIN: B0FHHXQX2Q   | FK SKU: SC-F-MFMTTOPPER-Q-78x60x2 | FSN: None               | MRP: 9099.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-S-72x36            | Line: other        | ASIN: B0CWS28HXY   | FK SKU: SC-F-MFMTTOPPER-S-72x36  | FSN: None               | MRP: 4499.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-S-72x36x2          | Line: other        | ASIN: B0FHHXS6NJ   | FK SKU: SC-FK-MFMTTOPPER-S-72x36x2 | FSN: MTPHM8TRSUPGFYEK   | MRP: 5299.0   | Name: Memory Foam Topper
-  SKU: SC-MFMTTOPPER-S-78x36x2          | Line: other        | ASIN: B0FHHX6LBM   | FK SKU: SC-FK-MFMTTOPPER-S-78x36x2 | FSN: MTPHM8TQMTTDFNYU   | MRP: 5999.0   | Name: Memory Foam Topper
-  SKU: SC-QRMTTOPPER-D-72x48x2          | Line: other        | ASIN: B0GGZVFCQM   | FK SKU: SC-F-QRMTTOPPER-D-72x48x2 | FSN: None               | MRP: 4799.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-K-72x72x2          | Line: other        | ASIN: B0GH19L9X1   | FK SKU: SC-F-QRMTTOPPER-K-72x72x2 | FSN: None               | MRP: 6599.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-K-75x60x2          | Line: other        | ASIN: B0GGZW55Q5   | FK SKU: SC-F-QRMTTOPPER-K-75x60x2 | FSN: None               | MRP: 5759.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-K-75x72x2          | Line: other        | ASIN: B0GH17PTLD   | FK SKU: SC-F-QRMTTOPPER-K-75x72x2 | FSN: None               | MRP: 6599.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-K-78x72x2          | Line: other        | ASIN: B0GGZTPLCW   | FK SKU: SC-F-QRMTTOPPER-K-78x72x2 | FSN: None               | MRP: 6599.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-Q-72x60x2          | Line: other        | ASIN: B0GH175SR4   | FK SKU: SC-F-QRMTTOPPER-Q-72x60x2 | FSN: MTPHJUXSXYX3G3WV   | MRP: 5639.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-Q-78x60x2          | Line: other        | ASIN: B0GGZQMYTQ   | FK SKU: SC-F-QRMTTOPPER-Q-78x60x2 | FSN: MTPHJUXSED3ZVHUZ   | MRP: 5879.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-S-72x36x2          | Line: other        | ASIN: B0GH12BR7D   | FK SKU: SC-F-QRMTTOPPER-S-72x36x2 | FSN: None               | MRP: 3959.0   | Name: Aeroflow Topper
-  SKU: SC-QRMTTOPPER-S-78x36x2          | Line: other        | ASIN: B0GGZVVW7D   | FK SKU: SC-F-QRMTTOPPER-S-78x36x2 | FSN: None               | MRP: 4199.0   | Name: Aeroflow Topper
   SKU: SC-BWJRPILWCS-C-50x20            | Line: pillowcase   | ASIN: B0CW6CZHKF   | FK SKU: SC-F-BWJRPILWCS-C-F-50x20 | FSN: None               | MRP: 499.0    | Name: Cuddle Pillow Case
   SKU: SC-BWJRPILWCS-P-31x20            | Line: pillowcase   | ASIN: B0CW6D7Q43   | FK SKU: SC-F-BWJRPILWCS-P-31x20  | FSN: None               | MRP: 649.0    | Name: Jersey Pillow Cases
   SKU: SC-BWJRPILWCS-S-27x17            | Line: pillowcase   | ASIN: B0CW6B5XD2   | FK SKU: SC-F-BWJRPILWCS-S-27x17  | FSN: None               | MRP: 549.0    | Name: Jersey Pillow Cases
@@ -420,13 +421,17 @@ CATEGORY: Furniture
   SKU: SC-PETBEDORIG-N.Blue-L-46x32     | Line: dogbed       | ASIN: B0FSSV4J2H   | FK SKU: SC-PETBEDORIG-N.Blue-L-46x32 | FSN: PEBGF39Z73ANNFFX   | MRP: 2489.0   | Name: Pet Bed
   SKU: SC-PETBEDORIG-N.Blue-M-36x26     | Line: dogbed       | ASIN: B0FSTDLQ3L   | FK SKU: SC-PETBEDORIG-N.Blue-M-36x26 | FSN: PEBGF35TBNZQTGG4   | MRP: 1989.0   | Name: Pet Bed
   SKU: SC-PETBEDORIG-N.Blue-XL-54x36    | Line: dogbed       | ASIN: B09XXXVG2F   | FK SKU: SC-PETBEDORIG-N.Blue-XL-54x36 | FSN: PEBGF39M7FDQ4RK9   | MRP: 2989.0   | Name: Pet Bed
+  SKU: SC-PETBEDORIG-N.Blue-XL-54x36    | Line: dogbed       | ASIN: B0FSTJ7FFJ   | FK SKU: SC-F-PETBEDORIG-N.Blue-XL-54x36 | FSN: None               | MRP: 2989.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-L-48x24           | Line: dogbed       | ASIN: B091CVV1CN   | FK SKU: SC-F-PETORTHO-L-24x48    | FSN: PEBGFSHXYQPDZV7H   | MRP: 3489.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-M-28x26           | Line: dogbed       | ASIN: B091CWJV2X   | FK SKU: SC-F-PETORTHO-M-28x26    | FSN: None               | MRP: 2989.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-M.Red-L-48X24     | Line: dogbed       | ASIN: B0FSTDKK48   | FK SKU: SC-PETBEDORTHO-M.Red-L-48X24 | FSN: PEBGF39RHFZGB3VZ   | MRP: 3489.0   | Name: Pet Bed
+  SKU: SC-PETBEDORTHO-M.Red-M-28X26     | Line: dogbed       | ASIN: B09XXXNNJP   | FK SKU: SC-PETBEDORTHO-M.Red-M-28X26 | FSN: None               | MRP: 2989.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-M.Red-M-28X26     | Line: dogbed       | ASIN: B0FST5V996   | FK SKU: SC-F-PETBEDORTHO-M.Red-M-28X26 | FSN: None               | MRP: 2989.0   | Name: Pet Bed
+  SKU: SC-PETBEDORTHO-M.Red-XL-52X28    | Line: dogbed       | ASIN: B09XXW2K8T   | FK SKU: SC-PETBEDORTHO-M.Red-XL-52X28 | FSN: PEBGF39RXZFGZKEK   | MRP: 4489.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-M.Red-XL-52X28    | Line: dogbed       | ASIN: B0FSTD5RCR   | FK SKU: SC-F-PETBEDORTHO-M.Red-XL-52X28 | FSN: None               | MRP: 4489.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-N.Blue-L-48X24    | Line: dogbed       | ASIN: B0FSTF72CC   | FK SKU: SC-PETBEDORTHO-N.Blue-L-48X24 | FSN: None               | MRP: 3489.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-N.Blue-M-28X26    | Line: dogbed       | ASIN: B09XXRKQN8   | FK SKU: SC-PETBEDORTHO-N.Blue-M-28X26 | FSN: None               | MRP: 2989.0   | Name: Pet Bed
+  SKU: SC-PETBEDORTHO-N.Blue-M-28X26    | Line: dogbed       | ASIN: B0FSTD9JDC   | FK SKU: SC-F-PETBEDORTHO-N.Blue-M-28X26 | FSN: None               | MRP: 2989.0   | Name: Pet Bed
   SKU: SC-PETBEDORTHO-N.Blue-XL-52X28   | Line: dogbed       | ASIN: B0FST5VM2L   | FK SKU: SC-PETBEDORTHO-N.Blue-XL-52X28 | FSN: PEBGF39RMMHQNYJ9   | MRP: 4489.0   | Name: Pet Bed
   SKU: SC-Ohayo-Double-Bed-72x48 - Part 1 | Line: other        | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Unknown Product
   SKU: SC-Ohayo-Double-Bed-72x48 - Part 2 | Line: other        | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Unknown Product
@@ -627,6 +632,9 @@ CATEGORY: Mattress
   SKU: SC-LTX-ORTHO-S-84X36X5           | Line: latexort     | ASIN: B0G7JCVL6X   | FK SKU: SC-F-LTX-ORTHO-S-84x36x5 | FSN: None               | MRP: 11299.0  | Name: Latex Ortho Mattress
   SKU: SC-LTX-ORTHO-S-84X36X6           | Line: latexort     | ASIN: B0G3CX48PG   | FK SKU: SC-F-LTX-ORTHO-S-84X36X6 | FSN: None               | MRP: 12499.0  | Name: Latex Ortho Mattress
   SKU: SC-LTX-ORTHO-S-84X36X8           | Line: latexort     | ASIN: B0G3CFGN5X   | FK SKU: SC-F-LTX-ORTHO-S-84X36X8 | FSN: None               | MRP: 14399.0  | Name: Latex Ortho Mattress
+  SKU: SC-ASF-NLX-BABY-L-48x24x4        | Line: original     | ASIN: B0GVG2KQDX   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Natural Latex Baby Mattress
+  SKU: SC-ASF-NLX-BABY-XL-52x28x4       | Line: original     | ASIN: B0GVFH6X8X   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Natural Latex Baby Mattress
+  SKU: SC-Fk-ORIG-D-72x48x5             | Line: original     | ASIN: None         | FK SKU: SC-Fk-ORIG-D-72x48x5     | FSN: BEMHHU8GHVCABY9M   | MRP: None     | Name: Original Mattress Double 72x48x5
   SKU: SC-ORIG-D-72x42x10               | Line: original     | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Original Mattress
   SKU: SC-ORIG-D-72x42x4                | Line: original     | ASIN: B0G71QWQJV   | FK SKU: SC-F-ORIG-D-72x42x4      | FSN: None               | MRP: 8809.0   | Name: Original Mattress
   SKU: SC-ORIG-D-72x42x6                | Line: original     | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Original Mattress
@@ -789,6 +797,7 @@ CATEGORY: Mattress
   SKU: SC-ORIG-S-84x36x5                | Line: original     | ASIN: B0G254WDXW   | FK SKU: SC-F-ORIG-S-84x36x5      | FSN: None               | MRP: 11099.0  | Name: Original Mattress
   SKU: SC-ORIG-S-84x36x6                | Line: original     | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Original Mattress
   SKU: SC-ORIG-S-84x36x8                | Line: original     | ASIN: B0FWLNLVRL   | FK SKU: SC-F-ORIG-S-84x36x8      | FSN: None               | MRP: 16999.0  | Name: Original Mattress
+  SKU: SCORIG-78x72x6                   | Line: original     | ASIN: None         | FK SKU: SCORIG-78x72x6           | FSN: BEMHER3NY9ENMDVZ   | MRP: None     | Name: Original Mattress 78x72x6
   SKU: SC-DUAL-D-72x42x5                | Line: switchdual   | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Dual Switch Mattress
   SKU: SC-DUAL-D-72x48x4                | Line: switchdual   | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Dual Switch Mattress
   SKU: SC-DUAL-D-72x48x5                | Line: switchdual   | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Dual Switch Mattress
@@ -886,50 +895,50 @@ CATEGORY: Mattress
   SKU: SC-ULTM-LATEX-S-78x36x8          | Line: ultimala     | ASIN: B0D58MC92Q   | FK SKU: SC-F-ULTM-LATEX-S-78x36x8 | FSN: BEMHF9JZJTJZUVB5   | MRP: 18999.0  | Name: Ultima Latex Mattress
   SKU: SC-ULTM-LATEX-S-84x36x10         | Line: ultimala     | ASIN: B0FWLM3WFL   | FK SKU: SC-F-ULTM-LATEX-S-84X36X10 | FSN: BEMHHDH59KATRFDN   | MRP: 23499.0  | Name: Ultima Latex Mattress
   SKU: SC-ULTM-LATEX-S-84x36x8          | Line: ultimala     | ASIN: B0FN9G9F1R   | FK SKU: SC-F-ULTM-LATEX-S-84x36x8 | FSN: None               | MRP: 23499.0  | Name: Ultima Latex Mattress
-  SKU: SC-ULTM-D-72x48x10               | Line: ultimam      | ASIN: B09XGLKRM4   | FK SKU: SC-ULTM-D-72x48x10       | FSN: None               | MRP: 18999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-D-72x48x8                | Line: ultimam      | ASIN: B09XGF9LKQ   | FK SKU: SC-ULTM-D-72x48x8        | FSN: BEMGFB2HGECFDCXG   | MRP: 18999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-D-75x48x10               | Line: ultimam      | ASIN: B09XGSBJP8   | FK SKU: SC-ULTM-D-75x48x10       | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-D-75x48x8                | Line: ultimam      | ASIN: B09XGGGP3H   | FK SKU: SC-ULTM-D-75x48x8        | FSN: BEMGFBFFADKXYA7Z   | MRP: 18999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-D-78x48x10               | Line: ultimam      | ASIN: B09XGQT4TP   | FK SKU: SC-ULTM-D-78x48x10       | FSN: None               | MRP: 21999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-D-78x48x8                | Line: ultimam      | ASIN: B09XGPQKRQ   | FK SKU: SC-ULTM-D-78x48x8        | FSN: BEMGFB2MU43QQGXY   | MRP: 18999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-D-84x48x10               | Line: ultimam      | ASIN: B0FWLMB5YN   | FK SKU: SC-F-ULTM-D-84X48X10     | FSN: None               | MRP: 24299.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-D-84x48x8                | Line: ultimam      | ASIN: B0FN98C2P3   | FK SKU: SC-F-ULTM-D-84x48x8      | FSN: None               | MRP: 21699.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-72x72x10               | Line: ultimam      | ASIN: B09XGKPDL1   | FK SKU: SC-ULTM-K-72x72x10       | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-72x72x8                | Line: ultimam      | ASIN: B09XGNVVYK   | FK SKU: SC-ULTM-K-72x72x8        | FSN: BEMGFB2GKQGCCZZA   | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-75x72x10               | Line: ultimam      | ASIN: B09XGX5FZX   | FK SKU: SC-ULTM-K-75x72x10       | FSN: BEMGFBF9CYPDEPDK   | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-75x72x8                | Line: ultimam      | ASIN: B09XGPHT52   | FK SKU: SC-ULTM-K-75x72x8        | FSN: BEMGFB2HFJS6GAWS   | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-78x72x10               | Line: ultimam      | ASIN: B09XGSHBKJ   | FK SKU: SC-ULTM-K-78x72x10       | FSN: BEMGFB2GMYYMZCAA   | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-78x72x8                | Line: ultimam      | ASIN: B09XGRWRST   | FK SKU: SC-ULTM-K-78x72x8        | FSN: BEMGFBFF6A9EFURA   | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-84x72x10               | Line: ultimam      | ASIN: B0DG5R2ZV9   | FK SKU: SC-F-ULTM-K-84x72x10     | FSN: None               | MRP: 32999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-84x72x8                | Line: ultimam      | ASIN: B09XGCSM7K   | FK SKU: SC-ULTM-K-84x72x8        | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-84x78x10               | Line: ultimam      | ASIN: B0DG5QY9XZ   | FK SKU: SC-F-ULTM-K-84x78x10     | FSN: None               | MRP: 35999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-K-84x78x8                | Line: ultimam      | ASIN: B0DG5QZSWY   | FK SKU: SC-F-ULTM-K-84x78x8      | FSN: None               | MRP: 31999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-72x60x10               | Line: ultimam      | ASIN: B09XGTCS7M   | FK SKU: SC-ULTM-Q-72x60x10       | FSN: BEMGFB2FUGVUTH9V   | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-72x60x8                | Line: ultimam      | ASIN: B09XGCYCSY   | FK SKU: SC-ULTM-Q-72x60x8        | FSN: BEMGFBFASXBWMHNX   | MRP: 22999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-72x66x10               | Line: ultimam      | ASIN: B0G39W5532   | FK SKU: SC-F-ULTM-Q-72x66x10     | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-72x66x8                | Line: ultimam      | ASIN: B0G39Y25BP   | FK SKU: SC-F-ULTM-Q-72x66x8      | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-75x60x10               | Line: ultimam      | ASIN: B09XGP87K1   | FK SKU: SC-ULTM-Q-75x60x10       | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-75x60x8                | Line: ultimam      | ASIN: B09XGPK5MG   | FK SKU: SC-ULTM-Q-75x60x8        | FSN: BEMGFBF9HKBJET2B   | MRP: 22999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-75x66x10               | Line: ultimam      | ASIN: 0.0          | FK SKU: SC-F-ULTM-Q-75x66x10     | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-75x66x8                | Line: ultimam      | ASIN: 0.0          | FK SKU: SC-F-ULTM-Q-75x66x8      | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-78x60x10               | Line: ultimam      | ASIN: B09XGPJ4CK   | FK SKU: SC-ULTM-Q-78x60x10       | FSN: BEMGFBF9TTZUZGWG   | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-78x60x8                | Line: ultimam      | ASIN: B09XGNTMB7   | FK SKU: SC-ULTM-Q-78x60x8        | FSN: BEMGFBFGYHKZAYWX   | MRP: 22999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-78x66x10               | Line: ultimam      | ASIN: B0G39VM9XL   | FK SKU: SC-F-ULTM-Q-78x66x10     | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-78x66x8                | Line: ultimam      | ASIN: 0.0          | FK SKU: SC-F-ULTM-Q-78x66x8      | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-84x60x10               | Line: ultimam      | ASIN: B0FN9JDGHP   | FK SKU: SC-F-ULTM-Q-84x60x10     | FSN: None               | MRP: 26899.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-84x60x8                | Line: ultimam      | ASIN: B0FN9VJK9T   | FK SKU: SC-F-ULTM-Q-84x60x8      | FSN: None               | MRP: 26899.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-84x66x10               | Line: ultimam      | ASIN: B0G3B1SGJQ   | FK SKU: SC-F-ULTM-Q-84x66x10     | FSN: None               | MRP: 32999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-Q-84x66x8                | Line: ultimam      | ASIN: B0G39Z9BHD   | FK SKU: SC-F-ULTM-Q-84x66x8      | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-72x30x8                | Line: ultimam      | ASIN: B0B2RGMB2Z   | FK SKU: SC-ULTM-S-72x30x8        | FSN: BEMGFBF9THUKRKEB   | MRP: 13999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-72x36x10               | Line: ultimam      | ASIN: B09XFMZMQS   | FK SKU: SC-ULTM-S-72x36x10       | FSN: None               | MRP: 16999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-72x36x8                | Line: ultimam      | ASIN: B09XGQN59S   | FK SKU: SC-ULTM-S-72x36x8        | FSN: BEMGFBFFDDMJWYX5   | MRP: 14999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-75x36x10               | Line: ultimam      | ASIN: B09XGGH3PN   | FK SKU: SC-F-ULTM-S-75x36x10     | FSN: None               | MRP: 16999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-75x36x8                | Line: ultimam      | ASIN: B09XGFNYTZ   | FK SKU: SC-ULTM-S-75x36x8        | FSN: BEMGFBF9K9YMSMXG   | MRP: 14999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-78x30x8                | Line: ultimam      | ASIN: B0FWMBYG4N   | FK SKU: SC-F-ULTM-S-78X30X8      | FSN: None               | MRP: 13999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-78x36x10               | Line: ultimam      | ASIN: B09XFLZYZ6   | FK SKU: SC-ULTM-S-78x36x10       | FSN: None               | MRP: 16999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-78x36x8                | Line: ultimam      | ASIN: B09XGM4M96   | FK SKU: SC-ULTM-S-78x36x8        | FSN: BEMGFBF9YZRPDJDS   | MRP: 14999.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-84x36x10               | Line: ultimam      | ASIN: B0FWM5QVTS   | FK SKU: SC-F-ULTM-S-84X36X10     | FSN: None               | MRP: 20499.0  | Name: Ultima Mattress
-  SKU: SC-ULTM-S-84x36x8                | Line: ultimam      | ASIN: B0FN9PVK2B   | FK SKU: SC-F-ULTM-S-84x36x8      | FSN: None               | MRP: 17899.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-72x48x10               | Line: ultimama     | ASIN: B09XGLKRM4   | FK SKU: SC-ULTM-D-72x48x10       | FSN: None               | MRP: 18999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-72x48x8                | Line: ultimama     | ASIN: B09XGF9LKQ   | FK SKU: SC-ULTM-D-72x48x8        | FSN: BEMGFB2HGECFDCXG   | MRP: 18999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-75x48x10               | Line: ultimama     | ASIN: B09XGSBJP8   | FK SKU: SC-ULTM-D-75x48x10       | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-75x48x8                | Line: ultimama     | ASIN: B09XGGGP3H   | FK SKU: SC-ULTM-D-75x48x8        | FSN: BEMGFBFFADKXYA7Z   | MRP: 18999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-78x48x10               | Line: ultimama     | ASIN: B09XGQT4TP   | FK SKU: SC-ULTM-D-78x48x10       | FSN: None               | MRP: 21999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-78x48x8                | Line: ultimama     | ASIN: B09XGPQKRQ   | FK SKU: SC-ULTM-D-78x48x8        | FSN: BEMGFB2MU43QQGXY   | MRP: 18999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-84x48x10               | Line: ultimama     | ASIN: B0FWLMB5YN   | FK SKU: SC-F-ULTM-D-84X48X10     | FSN: None               | MRP: 24299.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-D-84x48x8                | Line: ultimama     | ASIN: B0FN98C2P3   | FK SKU: SC-F-ULTM-D-84x48x8      | FSN: None               | MRP: 21699.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-72x72x10               | Line: ultimama     | ASIN: B09XGKPDL1   | FK SKU: SC-ULTM-K-72x72x10       | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-72x72x8                | Line: ultimama     | ASIN: B09XGNVVYK   | FK SKU: SC-ULTM-K-72x72x8        | FSN: BEMGFB2GKQGCCZZA   | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-75x72x10               | Line: ultimama     | ASIN: B09XGX5FZX   | FK SKU: SC-ULTM-K-75x72x10       | FSN: BEMGFBF9CYPDEPDK   | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-75x72x8                | Line: ultimama     | ASIN: B09XGPHT52   | FK SKU: SC-ULTM-K-75x72x8        | FSN: BEMGFB2HFJS6GAWS   | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-78x72x10               | Line: ultimama     | ASIN: B09XGSHBKJ   | FK SKU: SC-ULTM-K-78x72x10       | FSN: BEMGFB2GMYYMZCAA   | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-78x72x8                | Line: ultimama     | ASIN: B09XGRWRST   | FK SKU: SC-ULTM-K-78x72x8        | FSN: BEMGFBFF6A9EFURA   | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-84x72x10               | Line: ultimama     | ASIN: B0DG5R2ZV9   | FK SKU: SC-F-ULTM-K-84x72x10     | FSN: None               | MRP: 32999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-84x72x8                | Line: ultimama     | ASIN: B09XGCSM7K   | FK SKU: SC-ULTM-K-84x72x8        | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-84x78x10               | Line: ultimama     | ASIN: B0DG5QY9XZ   | FK SKU: SC-F-ULTM-K-84x78x10     | FSN: None               | MRP: 35999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-K-84x78x8                | Line: ultimama     | ASIN: B0DG5QZSWY   | FK SKU: SC-F-ULTM-K-84x78x8      | FSN: None               | MRP: 31999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-72x60x10               | Line: ultimama     | ASIN: B09XGTCS7M   | FK SKU: SC-ULTM-Q-72x60x10       | FSN: BEMGFB2FUGVUTH9V   | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-72x60x8                | Line: ultimama     | ASIN: B09XGCYCSY   | FK SKU: SC-ULTM-Q-72x60x8        | FSN: BEMGFBFASXBWMHNX   | MRP: 22999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-72x66x10               | Line: ultimama     | ASIN: B0G39W5532   | FK SKU: SC-F-ULTM-Q-72x66x10     | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-72x66x8                | Line: ultimama     | ASIN: B0G39Y25BP   | FK SKU: SC-F-ULTM-Q-72x66x8      | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-75x60x10               | Line: ultimama     | ASIN: B09XGP87K1   | FK SKU: SC-ULTM-Q-75x60x10       | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-75x60x8                | Line: ultimama     | ASIN: B09XGPK5MG   | FK SKU: SC-ULTM-Q-75x60x8        | FSN: BEMGFBF9HKBJET2B   | MRP: 22999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-75x66x10               | Line: ultimama     | ASIN: 0.0          | FK SKU: SC-F-ULTM-Q-75x66x10     | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-75x66x8                | Line: ultimama     | ASIN: 0.0          | FK SKU: SC-F-ULTM-Q-75x66x8      | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-78x60x10               | Line: ultimama     | ASIN: B09XGPJ4CK   | FK SKU: SC-ULTM-Q-78x60x10       | FSN: BEMGFBF9TTZUZGWG   | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-78x60x8                | Line: ultimama     | ASIN: B09XGNTMB7   | FK SKU: SC-ULTM-Q-78x60x8        | FSN: BEMGFBFGYHKZAYWX   | MRP: 22999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-78x66x10               | Line: ultimama     | ASIN: B0G39VM9XL   | FK SKU: SC-F-ULTM-Q-78x66x10     | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-78x66x8                | Line: ultimama     | ASIN: 0.0          | FK SKU: SC-F-ULTM-Q-78x66x8      | FSN: None               | MRP: 25999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-84x60x10               | Line: ultimama     | ASIN: B0FN9JDGHP   | FK SKU: SC-F-ULTM-Q-84x60x10     | FSN: None               | MRP: 26899.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-84x60x8                | Line: ultimama     | ASIN: B0FN9VJK9T   | FK SKU: SC-F-ULTM-Q-84x60x8      | FSN: None               | MRP: 26899.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-84x66x10               | Line: ultimama     | ASIN: B0G3B1SGJQ   | FK SKU: SC-F-ULTM-Q-84x66x10     | FSN: None               | MRP: 32999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-Q-84x66x8                | Line: ultimama     | ASIN: B0G39Z9BHD   | FK SKU: SC-F-ULTM-Q-84x66x8      | FSN: None               | MRP: 29999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-72x30x8                | Line: ultimama     | ASIN: B0B2RGMB2Z   | FK SKU: SC-ULTM-S-72x30x8        | FSN: BEMGFBF9THUKRKEB   | MRP: 13999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-72x36x10               | Line: ultimama     | ASIN: B09XFMZMQS   | FK SKU: SC-ULTM-S-72x36x10       | FSN: None               | MRP: 16999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-72x36x8                | Line: ultimama     | ASIN: B09XGQN59S   | FK SKU: SC-ULTM-S-72x36x8        | FSN: BEMGFBFFDDMJWYX5   | MRP: 14999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-75x36x10               | Line: ultimama     | ASIN: B09XGGH3PN   | FK SKU: SC-F-ULTM-S-75x36x10     | FSN: None               | MRP: 16999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-75x36x8                | Line: ultimama     | ASIN: B09XGFNYTZ   | FK SKU: SC-ULTM-S-75x36x8        | FSN: BEMGFBF9K9YMSMXG   | MRP: 14999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-78x30x8                | Line: ultimama     | ASIN: B0FWMBYG4N   | FK SKU: SC-F-ULTM-S-78X30X8      | FSN: None               | MRP: 13999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-78x36x10               | Line: ultimama     | ASIN: B09XFLZYZ6   | FK SKU: SC-ULTM-S-78x36x10       | FSN: None               | MRP: 16999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-78x36x8                | Line: ultimama     | ASIN: B09XGM4M96   | FK SKU: SC-ULTM-S-78x36x8        | FSN: BEMGFBF9YZRPDJDS   | MRP: 14999.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-84x36x10               | Line: ultimama     | ASIN: B0FWM5QVTS   | FK SKU: SC-F-ULTM-S-84X36X10     | FSN: None               | MRP: 20499.0  | Name: Ultima Mattress
+  SKU: SC-ULTM-S-84x36x8                | Line: ultimama     | ASIN: B0FN9PVK2B   | FK SKU: SC-F-ULTM-S-84x36x8      | FSN: None               | MRP: 17899.0  | Name: Ultima Mattress
 
 CATEGORY: Other
 ------------------------------------------------------------
@@ -1118,15 +1127,29 @@ CATEGORY: Other
   SKU: SC-ULTMCVR-S-75x36x8             | Line: other        | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Unknown Product
   SKU: SC-ULTMCVR-S-78x36x10            | Line: other        | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Unknown Product
   SKU: SC-ULTMCVR-S-78x36x8             | Line: other        | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Unknown Product
+  SKU: SC-AF-PETBEDORIG-M.Red-L-46x32   | Line: protector    | ASIN: B0FSTCNH49   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Original Dog Bed
+  SKU: SC-AF-PETBEDORIG-N.Blue-XL-54x36 | Line: protector    | ASIN: B0FSTJ7FFJ   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Original Dog Bed
+  SKU: SC-AF-PETBEDORTHO-N.Blue-M-28x26 | Line: protector    | ASIN: B0FSTD9JDC   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Orthopedic Dog Bed
+  SKU: SC-ASF-Ohayo-Double-Bed-78x48    | Line: protector    | ASIN: B0FR9CYKW6   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Ohayo Bed
+  SKU: SC-ASF-Ohayo-King-Bed-72x72      | Line: protector    | ASIN: B0FR98QN94   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Ohayo Bed
+  SKU: SC-ASF-Ohayo-King-Bed-75x72      | Line: protector    | ASIN: B0FR98NSZ9   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Ohayo Bed
+  SKU: SC-ASF-Ohayo-Queen-Bed-72x60     | Line: protector    | ASIN: B0FR96YX38   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Ohayo Bed
+  SKU: SC-ASF-Ohayo-Queen-Bed-75x60     | Line: protector    | ASIN: B0FR97MMHL   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Ohayo Bed
+  SKU: SC-PETBEDORTHO-M.Red-XL-52X28    | Line: protector    | ASIN: None         | FK SKU: SC-PETBEDORTHO-M.Red-XL-52X28 | FSN: PEBGF39RXZFGZKEK   | MRP: None     | Name: Orthopedic Dog Bed Red XL
   SKU: SC-WEDGE-BLACK                   | Line: wedge        | ASIN: B0GLG7C4KJ   | FK SKU: SC-FK-WEDGE-BLACK        | FSN: None               | MRP: 2499.0   | Name: Wedge Pillow
 
 CATEGORY: Pillow
 ------------------------------------------------------------
+  SKU: SC-ASF-CON-MFPILWS2-CLT-25x16    | Line: cervical     | ASIN: B0GYF7QZ8Q   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat CoolTEC Cervical Memory Foam Pillow
   SKU: SC-ASF-CONMFPILWS4-BAM-25x16     | Line: cervical     | ASIN: B0GLQ2BCVR   | FK SKU: SC-F-ASF-CONMFPILWS4-BAM-25x16 | FSN: None               | MRP: 6999.0   | Name: Contour Bamboo MF Pillow
   SKU: SC-CON-MFPILWS4-CLT-25x16        | Line: cervical     | ASIN: B0GLQ2GWDV   | FK SKU: SC-F-CON-MFPILWS4-CLT-25x16 | FSN: None               | MRP: 10999.0  | Name: Contour Bamboo MF Pillow
   SKU: SC-MFPILW-BAM-C-25x16            | Line: cervical     | ASIN: B09XFF5LPL   | FK SKU: SC-MFPILW-BAM-C-25x16    | FSN: PLWGF26TZFRQAUQ2   | MRP: 1989.0   | Name: Contour Bamboo MF Pillow
   SKU: SC-MFPILW-CLT-C-25x16            | Line: cervical     | ASIN: B09XFFBND4   | FK SKU: SC-F-CON-MFPILW-CLT-24x14 | FSN: PLWGD7JWNEWRFKSF   | MRP: 2989.0   | Name: Contour Bamboo MF Pillow
   SKU: SC-MFPILWSET2-BAM-C-25x16        | Line: cervical     | ASIN: B09XFG77VR   | FK SKU: SC-F-CON-MFPILWS2-BAM-24x14 | FSN: PLWGD7JW5ZUHRHTH   | MRP: 3699.0   | Name: Contour Bamboo MF Pillow
+  SKU: SC-A-SLMMFPILWSET1-BAM-S-25x15   | Line: cloudpil     | ASIN: B0DZP8GXDV   | FK SKU: None                     | FSN: None               | MRP: 1999.0   | Name: SleepyCat Slim Memory Foam Pillow
+  SKU: SC-ASF-LITEPILWPSET4-S-27X17     | Line: cloudpil     | ASIN: B0GLNNJ51N   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Fiber Lite Pillow
+  SKU: SC-ASF-SLMMFPILWSET2-BAM-S-25x15 | Line: cloudpil     | ASIN: B0GQ9TRGRT   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Slim Memory Foam Pillow
+  SKU: SC-ASF-SLMPILWSET4-S-26x16       | Line: cloudpil     | ASIN: B0GLNFQTY9   | FK SKU: None                     | FSN: None               | MRP: None     | Name: SleepyCat Slim Pillow with Microfiber
   SKU: SC-ASF-SMFPILWSET4-BAM-S-22x14   | Line: cloudpil     | ASIN: B0GLPV9NY6   | FK SKU: SC-F-ASF-SMFPILWSET4-BAM-S-22x14 | FSN: None               | MRP: 5999.0   | Name: Small Memory Foam Pillow
   SKU: SC-CLPILW-P-32x20                | Line: cloudpil     | ASIN: B08V5B923X   | FK SKU: SC-FK-ZIPILW-20x32       | FSN: None               | MRP: 1489.0   | Name: Cloud Pillow
   SKU: SC-CLPILW-S-27x18                | Line: cloudpil     | ASIN: B08KT1QRHJ   | FK SKU: SC-F-CLPILW27x18         | FSN: PLWFYPGGSKYE7NUA   | MRP: 1189.0   | Name: Cloud Pillow
@@ -1149,6 +1172,7 @@ CATEGORY: Pillow
   SKU: SC-MFPILWSET2-CLT-S-25x16        | Line: cooltec      | ASIN: B09XF8H7BK   | FK SKU: SC-F-MFPILWS2-CLT-S-25x16 | FSN: PLWGD7JWZZ8Y4AQK   | MRP: 5599.0   | Name: CoolTEC MF Pillow
   SKU: SC-BDPILW-S-50x19                | Line: cuddlepi     | ASIN: 0.0          | FK SKU: 0.0                      | FSN: None               | MRP: None     | Name: Cuddle Pillow
   SKU: SC-BDPILWSET2-19x50              | Line: cuddlepi     | ASIN: B0GM319ZNL   | FK SKU: SC-F-BDPILWSET2-19x50    | FSN: None               | MRP: 3899.0   | Name: Cuddle Pillow
+  SKU: SC-FK-CNC-BLK-SMALL              | Line: cuddlepi     | ASIN: None         | FK SKU: SC-FK-CNC-BLK-SMALL      | FSN: None               | MRP: None     | Name: Cuddle Pillow Small Black
   SKU: SC-GRBDPILWSET-S-50x19           | Line: cuddlepi     | ASIN: 0.0          | FK SKU: SC-F-BDPILW19x50         | FSN: PLWFYPHA8UXZMVG6   | MRP: 1989.0   | Name: Cuddle Pillow
   SKU: SC-GRCUDPILWSET-S-50x19          | Line: cuddlepi     | ASIN: B08KS2YSFR   | FK SKU: SC-F-BDPILW19x50         | FSN: PLWFYPHA8UXZMVG6   | MRP: 1989.0   | Name: Cuddle Pillow
   SKU: SC-GRPRBDPILW-SET-50x19          | Line: cuddlepi     | ASIN: 0.0          | FK SKU: SC-F-GRPRBDPILW-SET-50x19 | FSN: None               | MRP: 1989.0   | Name: Cuddle Pillow
@@ -1162,6 +1186,7 @@ CATEGORY: Pillow
   SKU: SC-HYBPILWSET4-S-26x16           | Line: hybridpillow | ASIN: B0GLN5XYBV   | FK SKU: SC-F-HYBPILWSET4-S-26x16 | FSN: None               | MRP: 6999.0   | Name: Hybrid Pillow
   SKU: SC-SUPRSOFTPILW-S-25x16          | Line: marshmallow  | ASIN: B0CRHS55FC   | FK SKU: SC-F-SUPRSOFTPILW-S-25x16 | FSN: PLWGWUFAD5X4FHFE   | MRP: 1989.0   | Name: Marshmallow Pillow
   SKU: SC-SUPRSOFTPILWSET2-S-25x16      | Line: marshmallow  | ASIN: B0GM2SB6VK   | FK SKU: SC-F-SUPRSOFTPILWSET2-S-25x16 | FSN: None               | MRP: 3899.0   | Name: Marshmallow Pillow
+  SKU: SC-F-MFPILW-P-28x18              | Line: mfpillow     | ASIN: None         | FK SKU: SC-F-MFPILW-P-28x18      | FSN: PLWG3UXUY6ZDARH7   | MRP: None     | Name: Memory Foam Pillow 28x18
   SKU: SC-MFPILW-BAM-P-28x18            | Line: softtouc     | ASIN: B096RZ5P5C   | FK SKU: SC-FK-MFPILW-S1-P-28x18  | FSN: None               | MRP: 2489.0   | Name: Memory Foam Pillow
   SKU: SC-MFPILW-BAM-S-25x16            | Line: softtouc     | ASIN: B0822SXQGH   | FK SKU: SC-PILLOW                | FSN: PLWFPFHU49GSGTMH   | MRP: 1989.0   | Name: Memory Foam Pillow
   SKU: SC-MFPILWSET2-BAM-P-28x18        | Line: softtouc     | ASIN: B096RWZKMC   | FK SKU: SC-F-MFPILWSET2-BAM-P-28x18 | FSN: None               | MRP: 4599.0   | Name: Memory Foam Pillow

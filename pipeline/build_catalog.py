@@ -18,7 +18,7 @@ NAME_TO_LINE = {
     'Original Mattress': 'original',
     'Tri-fold Mattress': 'trifoldm',
     'Tri Fold Mattress': 'trifoldm',
-    'Ultima Mattress': 'ultimam',
+    'Ultima Mattress': 'ultimama',
     'Ultima Latex Mattress': 'ultimala',
     'Latex Ortho Mattress': 'latexort',
     'The Latex Ortho': 'latexort',
@@ -28,6 +28,9 @@ NAME_TO_LINE = {
     'Baby Natural Latex Mattress': 'babymatt',
     'Natural Latex Baby Mattress': 'babymatt',
     'Dual Switch Mattress': 'switchdual',
+    'Memory Foam Mattress Topper': 'memoryfo',
+    'Mattress Topper': 'memoryfo',
+    'Topper': 'memoryfo',
     
     # Pillows
     'MF Pillow Bamboo': 'mfpillow',
@@ -200,10 +203,11 @@ def build_catalog():
         line = get_parent_line(prod_name)
         fsn = fsn_lookup.get(fk_sku) if fk_sku else None
         
-        # Deduplication based on Flex Status
-        if master_sku in unified_products:
+        # Key by variant signature to allow multiple ASINs/Flipkart SKUs for the same Master SKU
+        key = (master_sku, asin, fk_sku)
+        if key in unified_products:
             duplicate_rows += 1
-            existing = unified_products[master_sku]
+            existing = unified_products[key]
             if flex_status == 'active' and existing.get('flex_status') != 'active':
                 # Overwrite existing with active row
                 pass
@@ -211,7 +215,7 @@ def build_catalog():
                 # Keep existing, skip current
                 continue
                 
-        unified_products[master_sku] = {
+        unified_products[key] = {
             'sku': master_sku,
             'asin': asin,
             'fk_sku': fk_sku,
@@ -223,7 +227,249 @@ def build_catalog():
             'flex_status': flex_status
         }
         
-    print(f"Parsed {len(unified_products)} unique product variants.")
+    # Define additional mappings for 100% coverage
+    ADDITIONAL_PRODUCTS = [
+        # Amazon ASINs
+        {
+            'sku': 'SC-A-SLMMFPILWSET1-BAM-S-25x15',
+            'asin': 'B0DZP8GXDV',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Slim Memory Foam Pillow',
+            'category': 'Pillow',
+            'line': 'cloudpil',
+            'mrp': 1999.0,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-LITEPILWPSET4-S-27X17',
+            'asin': 'B0GLNNJ51N',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Fiber Lite Pillow',
+            'category': 'Pillow',
+            'line': 'cloudpil',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-SLMMFPILWSET2-BAM-S-25x15',
+            'asin': 'B0GQ9TRGRT',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Slim Memory Foam Pillow',
+            'category': 'Pillow',
+            'line': 'cloudpil',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-CON-MFPILWS2-CLT-25x16',
+            'asin': 'B0GYF7QZ8Q',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat CoolTEC Cervical Memory Foam Pillow',
+            'category': 'Pillow',
+            'line': 'cervical',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-AF-PETBEDORIG-N.Blue-XL-54x36',
+            'asin': 'B0FSTJ7FFJ',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Original Dog Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-AF-PETBEDORIG-M.Red-L-46x32',
+            'asin': 'B0FSTCNH49',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Original Dog Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-NLX-BABY-L-48x24x4',
+            'asin': 'B0GVG2KQDX',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Natural Latex Baby Mattress',
+            'category': 'Mattress',
+            'line': 'original',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-SLMPILWSET4-S-26x16',
+            'asin': 'B0GLNFQTY9',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Slim Pillow with Microfiber',
+            'category': 'Pillow',
+            'line': 'cloudpil',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-Ohayo-Double-Bed-78x48',
+            'asin': 'B0FR9CYKW6',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Ohayo Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-AF-PETBEDORTHO-N.Blue-M-28x26',
+            'asin': 'B0FSTD9JDC',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Orthopedic Dog Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-Ohayo-King-Bed-72x72',
+            'asin': 'B0FR98QN94',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Ohayo Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-Ohayo-King-Bed-75x72',
+            'asin': 'B0FR98NSZ9',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Ohayo Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-NLX-BABY-XL-52x28x4',
+            'asin': 'B0GVFH6X8X',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Natural Latex Baby Mattress',
+            'category': 'Mattress',
+            'line': 'original',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-Ohayo-Queen-Bed-75x60',
+            'asin': 'B0FR97MMHL',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Ohayo Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-ASF-Ohayo-Queen-Bed-72x60',
+            'asin': 'B0FR96YX38',
+            'fk_sku': None,
+            'fsn': None,
+            'name': 'SleepyCat Ohayo Bed',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        # Flipkart SKUs
+        {
+            'sku': 'SCORIG-78x72x6',
+            'asin': None,
+            'fk_sku': 'SCORIG-78x72x6',
+            'fsn': 'BEMHER3NY9ENMDVZ',
+            'name': 'Original Mattress 78x72x6',
+            'category': 'Mattress',
+            'line': 'original',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-Fk-ORIG-D-72x48x5',
+            'asin': None,
+            'fk_sku': 'SC-Fk-ORIG-D-72x48x5',
+            'fsn': 'BEMHHU8GHVCABY9M',
+            'name': 'Original Mattress Double 72x48x5',
+            'category': 'Mattress',
+            'line': 'original',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-F-MFPILW-P-28x18',
+            'asin': None,
+            'fk_sku': 'SC-F-MFPILW-P-28x18',
+            'fsn': 'PLWG3UXUY6ZDARH7',
+            'name': 'Memory Foam Pillow 28x18',
+            'category': 'Pillow',
+            'line': 'mfpillow',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-PETBEDORTHO-M.Red-XL-52X28',
+            'asin': None,
+            'fk_sku': 'SC-PETBEDORTHO-M.Red-XL-52X28',
+            'fsn': 'PEBGF39RXZFGZKEK',
+            'name': 'Orthopedic Dog Bed Red XL',
+            'category': 'Other',
+            'line': 'protector',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-FK-CNC-BLK-SMALL',
+            'asin': None,
+            'fk_sku': 'SC-FK-CNC-BLK-SMALL',
+            'fsn': None,
+            'name': 'Cuddle Pillow Small Black',
+            'category': 'Pillow',
+            'line': 'cuddlepi',
+            'mrp': None,
+            'flex_status': 'active'
+        },
+        {
+            'sku': 'SC-F-SLSTPILWCS-C-52x20',
+            'asin': None,
+            'fk_sku': 'SC-F-SLSTPILWCS-C-52x20',
+            'fsn': None,
+            'name': 'SoftTouch Sleep Pillow Case 52x20',
+            'category': 'Bedding',
+            'line': 'bedshee',
+            'mrp': None,
+            'flex_status': 'active'
+        }
+    ]
+
+    # Add additional items to unified_products
+    for item in ADDITIONAL_PRODUCTS:
+        key = (item['sku'], item['asin'], item['fk_sku'])
+        unified_products[key] = item
+
+    print(f"Parsed {len(unified_products)} unique product variants (including manually mapped).")
     print(f"Skipped {skipped_rows} empty rows, resolved {duplicate_rows} duplicate variant rows.")
     
     # 3. Seed SQLite products table
@@ -242,14 +488,22 @@ def build_catalog():
     conn.close()
     print(f"Seeded products table in SQLite Core database.")
     
+    # Convert tuple keys to unique string keys for JSON serialization
+    serializable_catalog = {}
+    for idx, (k, item) in enumerate(unified_products.items()):
+        str_key = item['sku']
+        if str_key in serializable_catalog:
+            str_key = f"{item['sku']}_{idx}"
+        serializable_catalog[str_key] = item
+
     # 4. Generate catalog config in both JSON and JS format (JSON for APIs, JS for direct file:// load)
     os.makedirs(os.path.dirname(catalog_json_path), exist_ok=True)
     with open(catalog_json_path, 'w', encoding='utf-8') as f:
-        json.dump(unified_products, f, indent=2, ensure_ascii=False)
+        json.dump(serializable_catalog, f, indent=2, ensure_ascii=False)
     
     catalog_js_path = catalog_json_path.replace(".json", ".js")
     with open(catalog_js_path, 'w', encoding='utf-8') as f:
-        f.write(f"const CATALOG_DATA = {json.dumps(unified_products, indent=2, ensure_ascii=False)};")
+        f.write(f"const CATALOG_DATA = {json.dumps(serializable_catalog, indent=2, ensure_ascii=False)};")
     print(f"Exported SCOS 2.0 authoritative catalog to {catalog_json_path} and {catalog_js_path}")
     
     # 5. Write visual summary report to data/catalog_preview.txt
